@@ -27,14 +27,5 @@
   <footer>
     <p>&copy; 2023 class-76.github.io. All Rights Reserved.</p>
   </footer>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V3WP8EFPQN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-V3WP8EFPQN');
-</script>
 </body>
 </html>
