@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Heebo", sans-serif;
+        }
+
+        body {
+            background-color: #2d2d2d;
+            color: #eaeaea;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-weight: 800;
+            color: #b7e1c0; /* Softer green */
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        button {
+            margin-left: 10px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn-custom {
+            background-color: #b7e1c0; /* Softer green */
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+        }
+
+        .btn-custom:hover {
+            background-color: #a0d1a4; /* Darker green */
+            transform: translateY(-2px);
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: #a0a0a0; /* Light gray */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #3e3e3e; /* Darker background for container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #eaeaea;
+        }
+    </style>
+
+    <script type="text/javascript" src="tab.js"></script>
+    <script type="text/javascript" src="settings.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tab Renaming</h1>
+
+        <div class="mb-3">
+            <label><b>Google Search:</b></label>
+            <button class="btn btn-custom" onclick="var search = prompt('What is blud searching for???:'); if (search) applyUrl('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAmVBMVEVHcEz////////////////+/v/////////////////////////5ysjxi4TqQTTpKRXqOinubWP0rKf89+/96+rsWFD1sq7/4qL1lAD8xDb8uwH6sgzrQhr7wCCsxfqjv/n80GhBhPU2gPUtfPTf6f1WkfVTsFvj8ubWvDEzqVMqpksRokFuvYG838QgpEaQy53K5tA3l6as17YMoVzUAAAADHRSTlMAMobC6v5g7P8U3jtapumyAAABHUlEQVR4AX2TBRaCUBBFP91ldxcd+1+cE2LDVfKd6UE8kWRF1TRVkSXxjW6YTwz9Q7Js8wPbEk8c8wfnj6Z9q5bJuJ4fBGE0GJoEe+Z4o3EQ+kAYBhOOS3myGUkh6YFrIpizQXYBvvQ9LwpC1BADaqc8xmhGL4cRa4AkZLxMZ6CNzC9koeBlvliungZPFKHiZbFYrE1k82CLBasCz0MQdyTuD8zxhJl8iec9w+KX2/0RaEW1TWh9uZoEmx81SohLucXJxWS0E5ieuRRuQhrHScYjOR3AcMNNEAaKOapFWVV5ltYPQ+PZ+BJUkIsiiZP6eOLGP0fWpEnMFPG1Hdlz2MOySMEyjZvnsBGn3ZBrnlfXniViWOtfzf6l7vsc7uGRJfdwhuwGAAAAAElFTkSuQmCC', search + ' - Google Search');">Apply</button>
+        </div>
+
+        <div class="mb-3">
+            <label><b>Google Classroom:</b></label>
+            <button class="btn btn-custom" onclick="applyUrl('https://ssl.gstatic.com/classroom/favicon.png', 'Classes');">Apply</button>
+        </div>
+
+        <div class="mb-3">
+            <label><b>Google Docs:</b></label>
+            <button class="btn btn-custom" onclick="var docsv3 = prompt('Which Google Doc is bro on????'); if (docsv3) applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', docsv3 + ' - Google Docs');">Apply</button>
+        </div>
+
+        <div class="mb-3">
+            <label><b>Google Drive:</b></label>
+            <button class="btn btn-custom" onclick="var docs = prompt('Which Google Drive is bro on???'); if (docs) applyUrl('https://ssl.gstatic.com/images/branding/product/2x/hh_drive_36dp.png', docs + ' - Google Drive');">Apply</button>
+        </div>
+
+        <div class="mb-3">
+            <label><b>Canvas:</b></label>
+            <button class="btn btn-custom" onclick="applyUrl('https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico', 'Dashboard');">Apply</button>
+        </div>
+        
+        <h1>Load Site on Blank</h1>
+        <button class="btn btn-custom" onclick="blank2true();">Yes</button>
+        <button class="btn btn-custom" onclick="blank2false();">No</button>
+
+        <div class="footer">
+            <p>© Vafor IT</p>
+        </div>
+    </div>
+</body>
+</html>

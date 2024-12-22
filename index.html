@@ -1,925 +1,310 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>Step Into a World</title>
-   <meta name="description" content="We understand that every g4mer is unique, which is why our site features a wide range of genres to explore. Here’s a glimpse of what you can expect:">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="theme-style-mode" content="1">
-   <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-   <!-- CSS here -->
-   <link rel="stylesheet" href="assets/css/preloader.css">
-   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-   <link rel="stylesheet" href="assets/css/meanmenu.css">
-   <link rel="stylesheet" href="assets/css/animate.min.css">
-   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-   <link rel="stylesheet" href="assets/css/backToTop.css">
-   <link rel="stylesheet" href="assets/css/magnific-popup.css">
-   <link rel="stylesheet" href="assets/css/nice-select.css">
-   <link rel="stylesheet" href="assets/css/fontAwesome5Pro.css">
-   <link rel="stylesheet" href="assets/css/flaticon.css">
-   <link rel="stylesheet" href="assets/css/default.css">
-   <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="canonical" href="index.html">
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6353603566849346"
-     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gxmes - maxwellstevenson.com</title>
+    <meta name="keywords" content="maxwellstevenson.com, vafor, vafor IT, Vafor IT work,  buildnow.gg, 1v1.lol ,funnyshooter 2 ,smash karts ,unblocked gxmes, gxmes, gxmes hub, gxmes online, gxmes space, gxmes spxce, gxmes space">
+    <meta name="description" content="Play over 70+ gxmes on maxwellstevenson.com">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5247035630897467"
+    crossorigin="anonymous"></script>
+    <style href="assets/bottombanner.css"></style>
+    <script src="../s/tab.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Heebo", sans-serif;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            background-color: #2d2d2d;
+            color: #eaeaea;
+        }
+
+        h1, h2 {
+            color: #b7e1c0;
+        }
+
+        .navbar {
+            background-color: #3e3e3e;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: #eaeaea;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #b7e1c0;
+        }
+
+        .hero-section {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+        }
+
+        .btn-custom {
+            background-color: #b7e1c0;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn-custom:hover {
+            background-color: #a0d1a4;
+            transform: translateY(-2px);
+        }
+
+        .gxme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 40px 20px;
+            background-color: #3e3e3e;
+            flex-grow: 1;
+        }
+
+        .gxme-card {
+            background-color: #444;
+            border-radius: 10px;
+            padding: 15px;
+            height: 150px;
+            text-align: center;
+            color: #eaeaea;
+            transition: transform 0.2s, box-shadow 0.3s;
+        }
+
+        .gxme-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .gxme-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .gxme-card h3 {
+            font-size: 1.2rem;
+            color: #b7e1c0;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 30px 20px;
+            color: #eaeaea;
+            font-size: 0.9rem;
+            flex-shrink: 0; /* Ensures the footer does not shrink */
+        }
+
+        .footer a {
+            color: #b7e1c0;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            color: #a0d1a4;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: #444;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+
+        .search-bar input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #eaeaea;
+            padding: 0.5rem;
+            font-size: 1rem;
+            width: 200px;
+        }
+
+        .search-bar button {
+            background-color: #b7e1c0;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 3px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-bar button:hover {
+            background-color: #a0d1a4;
+        }
+    </style>
+
 </head>
+<body>
+    <nav class="navbar">
+        <a href="/">Gxmes</a>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search gxmes...">
+            <button onclick="searchgxmes()">Search</button>
+        </div>
+    </nav>
+    <section class="hero-section">
+        <h1>Welcome to Vafor IT</h1>
+        <p>Explore over 70+ exciting gxmes from all genres</p>
+        <button class="btn-custom" onclick="randombutton()">Start Playing</button>
+    </section>
+    <section class="gxme-grid">
+        <!-- Dynamic game cards will be added here by JavaScript -->
+    </section>
 
-<body class="body-bg">
-   <!-- Add your site or application content here -->
-   <main class="body-has-sidebar">
-      <!-- header area start  -->
-      <header class="header2">
-         <div class="header-main header-main2">
-            <div class="container c-container-1">
-               <div class="header-main2-content">
-                  <div class="row align-items-center">
-                     <div class="col-xl-7 col-lg-7 col-md-7 col-7">
-                        <div class="header-main-left">
-                           <div class="menu-bar mr-20 d-xxl-none">
-                              <a class="side-toggle" href="javascript:void(0)">
-                                 <div class="bar-icon left-bar-icon">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                 </div>
-                              </a>
-                           </div>
-                           <form action="all-games.html" class="filter-search-input header-search d-none d-md-inline-block">
-                              <input type="text" placeholder="Search keyword">
-                              <button><i class="fal fa-search"></i></button>
-                           </form>
-                        </div>
-                     </div>
-                     <div class="col-xl-5 col-lg-5 col-md-5 col-5">
-                        <div class="header-main-right">
-                           <div class="product-filter-btn ml-20 d-xxl-none">
-                              <i class="flaticon-filter"></i>
-                           </div>
-                           <div class="mode-switch-wrapper my_switcher setting-option home3-mode-switch ml-25">
-                              <input type="checkbox" class="checkbox" id="chk" />
-                              <label class="label" for="chk">
-                                 <i class="fas fa-moon setColor dark theme__switcher-btn" data-theme="dark"></i>
-                                 <i class="fas fa-sun setColor light theme__switcher-btn" data-theme="light"></i>
-                                 <span class="ball"></span>
-                              </label>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+    <footer class="footer">
+        <p>© 2024 maxwellstevenson.com. All Rights Reserved.</p>
+        <p>Open an issue: <a href="https://github.com/v4for/v4for.github.io">Official repository</a></p>
+    </footer>
 
-            </div>
-         </div>
-      </header>
-      <!-- header area end -->
+<script>
+function getParentFolder() {
+    return window.location.origin; // Returns the protocol + domain
+}
 
-      <!-- side toggle start -->
-      <div class="fix">
-         <div class="menu2-side-bar-wrapper">
-            <div class="menu2-side-bar">
-               <div class="side-info-content">
-                  <div class="offset-widget offset-logo mb-25">
-                     <div class="row align-items-center">
-                        <div class="col-9">
-                           <div class="header-logo header1-logo">
-                              <a href="index.html" class="logo-bb"><img src="assets/img/logo/66ez.png" alt="logo-img"></a>
-                              <a href="index.html" class="logo-bw"><img src="assets/img/logo/66ez.png" alt="logo-img"></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="menu2-mobile-menu fix">
-                  </div>
-                  <div class="menu2-sidebar-widget">
-                     <li>
-                        <div class="category-item">
-                          <a href="all-games.html"><img src="assets/img/crown1.png" alt="icon-img"><h4> Top Games</h4></a>
-                        </div>
-                     </li>
-                     <div class="sidebar-creators-list">
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="slope-3.html"><img src="assets/img/slope3/slope-3-logo.png" alt="Slope 3"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="slope-3.html">Slope 3</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="slope-racing-3d.html"><img src="assets/img/sloperacing3d/logo.png" alt="Slope Racing 3D"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="slope-racing-3d.html">Slope Racing 3D</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="slope-tunnel.html"><img src="assets/img/slopetunnel/logo.png" alt="Slope Tunnel"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="slope-tunnel.html">Slope Tunnel</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="slope.html"><img src="assets/img/slope/logo.png" alt="Slope"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="slope.html">Slope</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="tunnel-rush-2.html"><img src="assets/img/tunnelrush2/logo.png" alt="Tunnel Rush 2"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="tunnel-rush-2.html">Tunnel Rush 2</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="tunnel-rush.html"><img src="assets/img/tunnelrush/tunnel-rush.png" alt="Tunnel Rush"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="tunnel-rush.html">Tunnel Rush</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="two-ball-3d.html"><img src="assets/img/twoball3d/two-ball-3d.png" alt="Two Ball 3D"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="two-ball-3d.html">Two Ball 3D</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="two-ball-3d-dark.html"><img src="assets/img/twoball3ddark/logo.png" alt="Two Ball 3D Dark"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="two-ball-3d-dark.html">Two Ball 3D Dark</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="creator-single creator-single-short">
-                           <div class="creator-wraper">
-                              <div class="creator-inner">
-                                 <div class="artist">
-                                    <div class="profile-img pos-rel">
-                                       <a href="two-tunnel-3d.html"><img src="assets/img/twotunnel3d/two-tunnel-3d.jpeg" alt="Two Tunnel 3D"></a>
-                                       <div class="profile-verification verified">
-                                          <i class="fas fa-check"></i>
-                                       </div>
-                                    </div>
-                                    <div class="creator-name-id">
-                                       <h4 class="artist-name"><a href="two-tunnel-3d.html">Two Tunnel 3D</a>
-                                       </h4>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="offcanvas-overlay"></div>
-      <div class="offcanvas-overlay-white"></div>
-      <!-- side toggle end -->
+let link2 = getParentFolder(); 
+    function default2(){
+        setTimeout(function() {
+        var links = document.querySelectorAll('section.gxme-grid a');
+        links.forEach(function(link) {
+            link.onclick = function(event) {
+                var gameName = link.querySelector('img') ? link.querySelector('img').alt : 'Why are you here';
+                event.preventDefault(); 
+                let encodedStr = btoa(link.href);
+                window.open(link2 + "/play?game=" + encodedStr + "&name=" + encodeURIComponent(gameName), '_self');
 
-      <!-- sidebar-category filter start  -->
-      <div class="fix">
-         <div class="sidebar-category-filter-wrapper">
-            <div class="sidebar-category-filter">
-               <div class="filter-widget mb-20">
-                  <div class="filter-widget-content">
-                     <ul>
-                        <li>
-                           <div class="category-item">
-                              <a href="index.html"><img src="assets/img/home-64.png" alt="icon-img">Home</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="new-games.html"><img src="assets/img/new-96.png" alt="icon-img">New</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="trending.html"><img src="assets/img/trending-64.png" alt="icon-img">Trending</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="update.html"><img src="assets/img/update-96.png" alt="icon-img">Updated</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="3d-games.html"><img src="assets/img/3d-64.png" alt="icon-img">3D</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="action-games.html"><img src="assets/img/action-48.png" alt="icon-img">Action</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="adventure-games.html"><img src="assets/img/adventure-64.png" alt="icon-img">Adventure</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="car-games.html"><img src="assets/img/car-64.png" alt="icon-img">Car</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="clicker.html"><img src="assets/img/clicker-64.png" alt="icon-img">Clicker</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="driving-games.html"><img src="assets/img/driving-64.png" alt="icon-img"> Driving</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="mahjong-games.html"><img src="assets/img/mahjong-96.png" alt="icon-img">Mahjong</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="motorcycle-games.html"><img src="assets/img/motorbike-66.png" alt="icon-img">Motorcycle</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="puzzle-games.html"><img src="assets/img/puzzle-64.png" alt="icon-img">Puzzle</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="shooting-games.html"><img src="assets/img/shooting-64.png" alt="icon-img">Shooting</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="soccer-games.html"><img src="assets/img/soccer-64.png" alt="icon-img">Soccer</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="sport-games.html"><img src="assets/img/sports-64.png" alt="icon-img">Sports</a>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="category-item">
-                              <a href="stickman-games.html"><img src="assets/img/stickman-96.png" alt="icon-img">Stickman</a>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- sidebar-category filter end  -->
+            };
+        }); 
+    }, 50); 
+}
+document.addEventListener('DOMContentLoaded', function () {
+    // Function to fetch the JSON data from the external URL
+    fetch('/list.json')
+        .then(response => response.json())
+        .then(data => {
+            const gxmeGrid = document.querySelector('.gxme-grid');
 
-      <!-- banner area start  -->
-      <div class="banner-area banner-area3 pos-rel pt-130">
-         <div class="container c-container-1">
-            <div class="row">
-               <div class="col-xl-6 banner-3-column">
-                  <div class="art-item-img pos-rel">
-                     <div class="tag-featured"><i class="fas fa-star"></i>Hot</div>
-                     <a href="blumgi-rocket.html"><img src="assets/img/blumgirocket/blumgi-rocket-logocover.webp" title="Blumgi Rocket Unblocked" alt="Blumgi Rocket Unblocked"></a>
-                  </div>
-               </div>
-               <div class="col-xl-6 banner-3-column">
-                  <div class="art-item-img pos-rel">
-                     <div class="tag-featured"><i class="fas fa-star"></i>Trending</div>
-                     <a href="burnin-rubber-5-xs-unblocked.html"><img src="assets/img/burninrubber5xs/burnin-rubber-5-xs500.webp" title="Burnin Rubber 5 Xs" alt="Burnin Rubber 5 Xs Unblocked"></a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- banner area end  -->
+            // Loop through each game entry in the JSON data
+            data.forEach(game => {
+                let gxmeLink = document.createElement('a');
+                gxmeLink.href = game.linksrc; 
+                gxmeLink.target = '_self'; 
+                gxmeLink.style.textDecoration = 'none'; 
+                gxmeLink.style.color = 'inherit'; 
 
-      <!-- artwork area start  -->
-      <section class="artworks-area pt-110 pb-100">
-         <div class="container c-container-1">
-            <div class="row wow fadeInUp home-3-artworks">
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Updated</div>
-                              <a href="moto-x3m-2.html"><img src="assets/img/moto3mx/moto-x3m-2.png" alt="Moto X3M 2"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="moto-x3m-2.html">Moto X3M 2</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Updated</div>
-                              <a href="wheely-8.html"><img src="assets/img/wheely/wheely-8.png" alt="Wheely 8"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="wheely-8.html">Wheely 8</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Updated</div>
-                              <a href="bullet-force.html"><img src="assets/img/bulletforce/bullet-force.png" alt="Bullet Force"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="bullet-force.html">Bullet Force</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Updated</div>
-                              <a href="masked-forces.html"><img src="assets/img/maskedforces/masked-forces.png" alt="Masked Forces"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="masked-forces.html">Masked Forces</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <a href="3d-bowling.html"><img src="assets/img/3dbowling/logo.png" alt="3D Bowling"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="3d-bowling.html">3D Bowling</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Hot</div>
-                              <a href="3d-car-simulator.html"><img src="assets/img/3dcarsimulator/3d-car-simulator.webp" alt="3D Car Simulator"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="3d-car-simulator.html">3D Car Simulator</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="3d-moto-simulator-2.html"><img src="assets/img/3dmotosimulator2/3d-moto-simulator-2.png" alt="3D Moto Simulator 2"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="3d-moto-simulator-2.html">3D Moto Simulator 2</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Hot</div>
-                              <a href="fireboy-and-watergirl-6.html"><img src="assets/img/fireboyandwatergirl6/fireboy-and-watergirl-6.png" alt="Fireboy & Watergirl 6"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="fireboy-and-watergirl-6.html">Fireboy & Watergirl 6</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="adventure-drivers.html"><img src="assets/img/adventuredrivers/adventure-drivers.webp" alt="Adventure Drivers"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="adventure-drivers.html">Adventure Drivers</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <a href="ball-sort-puzzle.html"><img src="assets/img/ballsortpuzzle/ball-sort-puzzle.png" alt="Ball Sort Puzzle"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="ball-sort-puzzle.html">Ball Sort Puzzle</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Updated</div>
-                              <a href="blumgi-rocket.html"><img src="assets/img/blumgirocket/blumgi-rocket-logo.webp" alt="Blumgi Rocket"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="blumgi-rocket.html">Blumgi Rocket</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="fireboy-and-watergirl-5.html"><img src="assets/img/fireboyandwatergirl5/fireboy-and-watergirl-5.png" alt="Fireboy & Watergirl 5"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="fireboy-and-watergirl-5.html">Fireboy & Watergirl 5</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <a href="fireboy-and-watergirl-4.html"><img src="assets/img/fireboyandwatergirl4/fireboy-and-watergirl-4.png" alt="Fireboy & Watergirl 4"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="fireboy-and-watergirl-4.html">Fireboy & Watergirl 4</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Trending</div>
-                              <a href="vex-7.html"><img src="assets/img/vex7/vex7.png" alt="Vex 7"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="vex-7.html">Vex 7</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Hot</div>
-                              <a href="wheely-7.html"><img src="assets/img/wheely/wheely-7.png" alt="Wheely 7"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="wheely-7.html">Wheely 7</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <a href="wheely-6.html"><img src="assets/img/wheely/wheely-6.png" alt="Wheely 6"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="wheely-6.html">Wheely 6</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Hot</div>
-                              <a href="drift-boss.html"><img src="assets/img/driftboss/drift-boss-logo.webp" alt="Drift Boss"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="drift-boss.html">Drift Boss</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="drift-hunters.html"><img src="assets/img/drifthunters/drift-hunters-logo.webp" alt="Drift Hunters"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="drift-hunters.html">Drift Hunters</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Update</div>
-                              <a href="drive-mad.html"><img src="assets/img/drivemad/drive-mad-logo.webp" alt="Drive Mad"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="drive-mad.html">Drive Mad</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="eggy-car.html"><img src="assets/img/eggycar/eggy-car-logo.webp" alt="Eggy Car"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="eggy-car.html">Eggy Car</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Update</div>
-                              <a href="fruita-crush.html"><img src="assets/img/fruitacrush/fruita-crush.png" alt="Fruita Crush"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="fruita-crush.html">Fruita Crush</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="racing-monster-trucks.html"><img src="assets/img/racingmontertrucks/racing-monster-trucks.png" alt="Racing Monster Trucks"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="racing-monster-trucks.html">Racing Monster Trucks</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>Hot</div>
-                              <a href="hex-puzzle.html"><img src="assets/img/hexpuzzle/hex-puzzle.png" alt="Hex Puzzle"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="hex-puzzle.html">Hex Puzzle</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="jelly-truck.html"><img src="assets/img/jellytruck/jelly-truck-logo.webp" alt="Jelly Truck"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="jelly-truck.html">Jelly Truck</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="parking-fury-3.html"><img src="assets/img/parkingfury/parking-fury-3.png" alt="Parking Fury 3"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="parking-fury-3.html">Parking Fury 3</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="traffic-mania.html"><img src="assets/img/trafficmania/traffic-mania.png" alt="Traffic  Mania"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="traffic-mania.html">Traffic  Mania</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="impossible-monster-truck.html"><img src="assets/img/impossiblemontertruck/impossible-monster-truck.png" alt="Impossible Monster Truck"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="impossible-monster-truck.html">Impossible Monster Truck</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="art-item-single mb-30">
-                     <div class="art-item-wraper">
-                        <div class="art-item-inner">
-                           <div class="art-item-img pos-rel">
-                              <div class="tag-featured"><i class="fas fa-star"></i>New</div>
-                              <a href="mr-buller.html"><img src="assets/img/mrbullet/logo.jpeg" alt="Mr Buller"></a>
-                           </div>
-                           <div class="art-item-content pos-rel">
-                              <h4 class="art-name"><a href="mr-buller.html">Mr Bullet</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- artwork area end  -->
-   </main>
+                let gxmeCard = document.createElement('div');
+                gxmeCard.classList.add('gxme-card');
+                gxmeCard.style.cursor = 'pointer';
 
-   <!-- footer area start  -->
-   <footer data-background="" class="footer2-bg">
-      <div class="copyright-area copyright2-area">
-         <div class="container c-container-1">
-            <div class="copyright2-inner">
-               <div class="row align-items-center">
-<p><strong>Step Into a World of Gaming Adventure</strong></p>
-<p>Welcome to a gaming paradise where endless fun and excitement await! Our platform is home to hundreds of games, offering a diverse and thrilling selection for players of all tastes and skill levels. Whether you&rsquo;re a fan of fast-paced action or prefer to challenge your mind with puzzles, our collection guarantees an unforgettable gaming experience.</p>
-<h3><strong>An Incredible Variety of Games</strong></h3>
-<p>We understand that every gamer is unique, which is why our site features a wide range of genres to explore. Here&rsquo;s a glimpse of what you can expect:</p>
-<ul>
-<li><strong>Adventure Games</strong>: Journey through captivating worlds filled with excitement and surprises.</li>
-<li><strong>Sports Games</strong>: Feel the rush of competition with realistic and immersive sports titles.</li>
-<li><strong>Puzzle Games</strong>: Test your wits and solve intricate challenges that keep your brain engaged.</li>
-<li><strong>Multiplayer Games</strong>: Connect with players worldwide in cooperative or competitive adventures.</li>
-<li><strong>Action Games</strong>: Dive into high-energy battles and thrilling gameplay.</li>
-</ul>
-<p>No matter your mood or preference, there&rsquo;s always a game waiting to capture your attention.</p>
-<h3><strong>Why Gamers Love Our Platform</strong></h3>
-<p>We&rsquo;ve designed our site to deliver an unmatched gaming experience. Here&rsquo;s what sets us apart:</p>
-<ul>
-<li><strong>Massive Library</strong>: With hundreds of games to choose from, there&rsquo;s something for everyone.</li>
-<li><strong>Instant Play</strong>: Forget downloads and installations&mdash;just open your browser and start playing.</li>
-<li><strong>Constant Updates</strong>: Our collection is always growing, so you&rsquo;ll never run out of fresh options.</li>
-<li><strong>Easy Navigation</strong>: Explore our library effortlessly with a user-friendly interface.</li>
-</ul>
-<h3><strong>Must-Try Games on Our Platform</strong></h3>
-<p>Some games rise above the rest, captivating players around the world. Check out these standout titles:</p>
-<ul>
-<li><strong>Subway Surfers</strong>: Navigate bustling streets in this endless runner, collecting coins and dodging obstacles.</li>
-<li><strong>Yohoho.io</strong>: Engage in swashbuckling battles as you fight for treasure and glory.</li>
-<li><strong>Paper.io</strong>: Expand your territory and outwit opponents in this highly strategic game.</li>
-<li><strong>Funny Shooter 2</strong>: Laugh and conquer as you face quirky enemies in unique scenarios.</li>
-<li><strong>BitLife</strong>: Shape a virtual life through endless possibilities and unpredictable choices.</li>
-</ul>
-<h3><strong>More Than Just Games</strong></h3>
-<p>Our platform isn&rsquo;t just about playing&mdash;it&rsquo;s about creating moments of joy, relaxation, and connection. Unwind after a long day, challenge yourself to improve, or share the fun with friends.</p>
-<h3><strong>Start Playing Today</strong></h3>
-<p>Your next adventure is just a click away. Dive into our site and discover a treasure trove of games that will keep you entertained for hours on end. Whether you&rsquo;re racing to the finish line, solving mysteries, or battling rivals, the fun never stops here.</p>
-<p>Don&rsquo;t miss out&mdash;start exploring now and let the games begin!</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer>
-   <!-- footer area end  -->
+                let img = document.createElement('img');
+                img.src = game.imgsrc; // Use the imgsrc from the JSON
+                img.alt = game.name;
+                img.style.width = '100px';
+                img.style.height = '100px';
 
+                let h3 = document.createElement('h3');
+                h3.textContent = game.name; // Use the name from the JSON
 
-   <!-- pre loader area start -->
-   <div id="loading">
-      <div id="loading-center">
-         <div id="loading-center-absolute">
-            <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-               <img class="loading-logo" src="assets/img/logo/preloader.svg" alt="66EZ">
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- pre loader area end -->
+                gxmeCard.appendChild(img);
+                gxmeCard.appendChild(h3);
+                gxmeLink.appendChild(gxmeCard);
+                gxmeGrid.appendChild(gxmeLink);
+            });
+            default2();
+        })
+        .catch(error => console.error('Error loading the list.json:', error));
+    
+    // Search functionality
+    const searchInput = document.getElementById('search');
 
-   <!-- back to top start -->
-   <div class="progress-wrap">
-      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-      </svg>
-   </div>
-   <!-- back to top end -->
+    function searchgxmes() {
+        const query = searchInput.value.toLowerCase();
+        const gxmeGrid = document.querySelector('.gxme-grid');
+        gxmeGrid.innerHTML = ''; // Clear the grid
 
-   <!-- dark mode button start -->
-   <!-- <div class="mode-switch-wrapper my_switcher setting-option">
-      <input type="checkbox" class="checkbox" id="chk" />
-      <label class="label" for="chk">
-         <i class="fas fa-moon setColor dark theme__switcher-btn" data-theme="dark"></i>
-         <i class="fas fa-sun setColor light theme__switcher-btn" data-theme="light"></i>
-         <span class="ball"></span>
-      </label>
-   </div> -->
-   <!-- dark mode button end  -->
+        fetch('/list.json')
+            .then(response => response.json())
+            .then(data => {
+                // Re-populate with only matching cards
+                data.forEach(game => {
+                    if (game.name.toLowerCase().includes(query)) {
+                        let gxmeLink = document.createElement('a');
+                        gxmeLink.href = game.linksrc; 
+                        gxmeLink.target = '_self'; 
+                        gxmeLink.style.textDecoration = 'none'; 
+                        gxmeLink.style.color = 'inherit'; 
 
+                        let gxmeCard = document.createElement('div');
+                        gxmeCard.classList.add('gxme-card');
+                        gxmeCard.style.cursor = 'pointer';
 
-   <!-- JS here -->
-   <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-   <script src="assets/js/vendor/waypoints.min.js"></script>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
-   <script src="assets/js/meanmenu.js"></script>
-   <script src="assets/js/swiper-bundle.min.js"></script>
-   <script src="assets/js/owl.carousel.min.js"></script>
-   <script src="assets/js/magnific-popup.min.js"></script>
-   <script src="assets/js/parallax.min.js"></script>
-   <script src="assets/js/backToTop.js"></script>
-   <script src="assets/js/cookie.js"></script>
-   <script src="assets/js/style-switcher.js"></script>
-   <script src="assets/js/nice-select.min.js"></script>
-   <script src="assets/js/parallax.js"></script>
-   <script src="assets/js/counterup.min.js"></script>
-   <script src="assets/js/jquery.countdown.min.js"></script>
-   <script src="assets/js/ajax-form.js"></script>
-   <script src="assets/js/wow.min.js"></script>
-   <script src="assets/js/isotope.pkgd.min.js"></script>
-   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-   <script src="assets/js/main.js"></script>
+                        let img = document.createElement('img');
+                        img.src = game.imgsrc; // Use the imgsrc from the JSON
+                        img.alt = game.name;
+                        img.style.width = '100px';
+                        img.style.height = '100px';
+
+                        let h3 = document.createElement('h3');
+                        h3.textContent = game.name; // Use the name from the JSON
+
+                        gxmeCard.appendChild(img);
+                        gxmeCard.appendChild(h3);
+                        gxmeLink.appendChild(gxmeCard);
+                        gxmeGrid.appendChild(gxmeLink);
+                    }
+                });
+                default2();
+            })
+            .catch(error => console.error('Error searching games:', error));
+    }
+
+    searchInput.addEventListener('input', searchgxmes);
+
+});
+</script>
+
 </body>
 </html>
