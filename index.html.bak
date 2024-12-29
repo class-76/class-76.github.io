@@ -247,37 +247,31 @@
 <p>Are you ready to immerse yourself in a world where fun never ends? Our website is the perfect destination for gaming enthusiasts, featuring hundreds of games that cater to every interest. With a vast collection spanning various genres, our platform ensures there&rsquo;s always something new and exciting to explore.</p>
 <h3><strong>Hundreds of Games, Endless Possibilities</strong></h3>
 <p>Our library is packed with games designed to entertain, challenge, and delight players of all ages. Here&rsquo;s a taste of what awaits:</p>
-<ul>
-<li><strong>Adventure Games</strong>: Embark on epic quests filled with mystery and excitement.</li>
-<li><strong>Puzzle Games</strong>: Stretch your brainpower with tricky and satisfying challenges.</li>
-<li><strong>Action Games</strong>: Experience fast-paced gameplay that keeps your adrenaline pumping.</li>
-<li><strong>Sports Games</strong>: Step onto the virtual field and play like a pro.</li>
-<li><strong>Multiplayer Games</strong>: Join friends or compete against players from all over the world.</li>
-</ul>
+<p><strong>Adventure Games</strong>: Embark on epic quests filled with mystery and excitement.</p>
+<p><strong>Puzzle Games</strong>: Stretch your brainpower with tricky and satisfying challenges.</p>
+<p><strong>Action Games</strong>: Experience fast-paced gameplay that keeps your adrenaline pumping.</p>
+<p><strong>Sports Games</strong>: Step onto the virtual field and play like a pro.</p>
+<p><strong>Multiplayer Games</strong>: Join friends or compete against players from all over the world.</p>
 <p>No matter your gaming style, our platform has the perfect game to match your mood.</p>
 <h3><strong>What Sets Us Apart?</strong></h3>
 <p>Our website isn&rsquo;t just a gaming hub&mdash;it&rsquo;s a community built for fun, accessibility, and variety. Here&rsquo;s why gamers love us:</p>
-<ul>
-<li><strong>Massive Selection</strong>: With hundreds of games, boredom is never an option.</li>
-<li><strong>No Downloads Needed</strong>: Play instantly without wasting time on installations.</li>
-<li><strong>Constant Updates</strong>: New games are added regularly, keeping the library fresh and engaging.</li>
-<li><strong>Simple Navigation</strong>: Quickly find your favorite genres and discover new ones with ease.</li>
-</ul>
+<p><strong>Massive Selection</strong>: With hundreds of games, boredom is never an option.</p>
+<p><strong>No Downloads Needed</strong>: Play instantly without wasting time on installations.</p>
+<p><strong>Constant Updates</strong>: New games are added regularly, keeping the library fresh and engaging.</p>
+<p><strong>Simple Navigation</strong>: Quickly find your favorite genres and discover new ones with ease.</p>
 <h3><strong>Top Games to Try Today</strong></h3>
 <p>Our platform features some of the most popular games loved by millions. Don&rsquo;t miss these fan favorites:</p>
-<ul>
-<li><strong>Subway Surfers</strong>: Dash through vibrant cityscapes while avoiding obstacles and collecting power-ups.</li>
-<li><strong>Yohoho.io</strong>: Engage in thrilling multiplayer battles as a pirate searching for treasure.</li>
-<li><strong>Paper.io</strong>: Strategically conquer territory and outsmart your rivals in this addictive game.</li>
-<li><strong>Funny Shooter 2</strong>: Tackle hilarious levels filled with wacky enemies and creative challenges.</li>
-<li><strong>BitLife</strong>: Simulate an entire life with decisions that lead to endless possibilities.</li>
-</ul>
+<p><strong>Subway Surfers</strong>: Dash through vibrant cityscapes while avoiding obstacles and collecting power-ups.</p>
+<p><strong>Yohoho.io</strong>: Engage in thrilling multiplayer battles as a pirate searching for treasure.</p>
+<p><strong>Paper.io</strong>: Strategically conquer territory and outsmart your rivals in this addictive game.</p>
+<p><strong>Funny Shooter 2</strong>: Tackle hilarious levels filled with wacky enemies and creative challenges.</p>
+<p><strong>BitLife</strong>: Simulate an entire life with decisions that lead to endless possibilities.</p>
 <h3><strong>More Fun, More Accessibility</strong></h3>
 <p>Our gaming site is designed to bring joy to everyone. Whether you&rsquo;re a dedicated gamer or just looking for a quick distraction, you&rsquo;ll find games that are easy to play, endlessly entertaining, and always accessible.</p>
 <h3><strong>Start Your Adventure Today</strong></h3>
 <p>Why wait to experience the thrill? Visit our site now and discover a gaming paradise with hundreds of options to explore. Dive into adventures, challenge your friends, or relax with casual games&mdash;the choice is yours.</p>
 <p>Your next favorite game is just a click away. Start playing today and let the fun begin!</p>
-    </footer>
+	</footer>
 
 <script>
 function getParentFolder() {
