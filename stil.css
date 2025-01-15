@@ -1,0 +1,357 @@
+body{
+    font-family: poppins;
+    background: #5644b3;
+}
+ul.liste{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-gap: 15px;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background: hsl(0deg 0% 100%);
+    margin-top: 0px !important;
+    margin: 0;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px hsl(0deg 0% 0% / 11%);
+    z-index: 10;
+    position: relative;
+}
+
+ul.liste li:hover img{
+	transition: .263s all;
+	transform: translateY(-10px) scale(.79);
+}
+ul.liste li:hover{
+    transition: .3s all;
+    transform: scale(1);
+    z-index: 100;
+    overflow: hidden;
+}
+ul.liste li{
+    position: relative;
+    transition: .6s all;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ul.liste li:hover .lesson_title{
+    bottom: -8px;
+    transition: .24s all;
+    opacity: 1;
+}
+
+ul.liste li .lesson_title{
+    position: absolute;
+    transition: .23s all;
+    bottom: -40px;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 6px;
+    background: #ffffff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    padding: 0 5px;
+    text-transform: capitalize;
+    width: 90%;
+    font-weight: 700;
+    box-shadow: 0 1px 1px #000;
+}
+ul.liste li .lesson_image{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+}
+
+
+
+footer {
+    background: rgb(34 34 34 / 0%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+ 
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #846ef3;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px !important;
+    font-family: poppins;
+    letter-spacing: 0px;
+    z-index: 1200;
+    width: 100%;
+    font-size: 16px !important;
+    box-shadow: 6px 6px 16px 1px #4d3f99;
+}
+
+.logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-shadow: 0 1px 3px #214961;
+    text-transform: uppercase;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu a:hover{
+    background: #92ff97;
+}
+.nav-menu a {
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    padding: 2px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+ 
+ 
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    list-style: none;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+}
+
+.dropdown-menu li {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        z-index: 1;
+    }
+
+    .nav-menu li {
+        margin: 0px 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        grid-gap: 9px;
+        padding: 15px;
+        width: 200px;
+        position: fixed;
+        right: 0px !important;
+        top: 60px;
+    }
+
+     
+}
+
+.home{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 110px !important;
+}
+
+
+h2{
+    padding: 0px 30px !important;
+    margin: 0 !important;
+ 
+    display: inline-block;
+    margin-left: 20px !important;
+    font-size: 20px;
+    letter-spacing: 0px;
+    height: 50px;
+    margin-bottom: 3px !important;
+    position: relative;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0px;
+    box-shadow: 10px 11px 0px hsl(0deg 0% 0% / 27%);
+    z-index: 1;
+}
+
+.h21{
+	   color: #0b311e;
+	   background: #38e790;
+}
+.h22{
+	   color: #433114;
+	   background: #ffb848;
+}
+.h23{
+	   color: #232c39;
+	   background: #79cdff;
+}
+.h24{
+	   color: #433114;
+    background: #e1a341;
+}
+.h25{
+	   color: #433114;
+    background: #e1a341;
+}
+
+
+ .lesson_area{
+    background: hsl(202.55deg 86.13% 66.08%);
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+ .lessons-iframe{
+    width: 90%;
+    margin-bottom: 20px;
+    height: 640px;
+}
+
+.first{}
+.second{}
+
+
+.butonp{
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,.095),0 2px 4px rgba(0,0,0,.025),0 2px 4px rgba(0,0,0,.04)!important;
+    background: #fff;
+    padding: 0 10px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 31px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.butonp:hover{
+    background: #7fffad;
+    cursor: pointer;
+}
+
+.butonnw{
+	    box-shadow: inset 0 -4px 0 rgba(0,0,0,.095),0 2px 4px rgba(0,0,0,.025),0 2px 4px rgba(0,0,0,.04)!important;
+	    background: #44e970;
+	    padding: 8px 20px;
+	    margin: 0 auto;
+	    border-radius: 31px;
+	    font-size: 16px;
+	    font-family: poppins;
+	    font-weight: 600;
+	    color: #10431e;
+	    margin-top: 20px;
+}
+.butonnw:hover{
+	background: #78ff9c;
+	cursor: pointer;
+}
+
+.butonfs{
+	  	    box-shadow: inset 0 -4px 0 rgba(0,0,0,.095),0 2px 4px rgba(0,0,0,.025),0 2px 4px rgba(0,0,0,.04)!important;
+	  	    background: #65c5ff !important;
+	  	    padding: 8px 20px;
+	  	    margin: 0 auto;
+	  	    border-radius: 31px;
+	  	    font-size: 16px;
+	  	    font-family: poppins;
+	  	    font-weight: 600;
+	  	    color: #10431e;
+	  	    margin-top: 20px;
+}
+.butonfs:hover{
+	background: #9cdaff !important;
+	cursor: pointer;
+}
+
+
+.article{
+    width: 100%;
+    background: #fbfbfb;
+    padding: 30px;
+    border-radius: 10px;
+    color: #20445b;
+    margin-bottom: 30px;
+}
+
+.f_img{
+	max-width: 150px;
+	border-radius:10px;
+	margin-bottom: 25px;
+}
+
+.class_r{
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 35px;
+}
