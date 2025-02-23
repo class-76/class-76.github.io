@@ -292,7 +292,46 @@
   <!--<div class="2" style="position: fixed; background-color: blue; z-index: 99999999; height: 1vh; width: 1vw; margin-top: 58.5vh;"></div>
  <div class="2" style="position: fixed; background-color: red; z-index: 99999999; height: 1vh; width: 1vw; margin-top: 66vh;"></div>
  div class="2" style="position: aboslute; background-color: blue; z-index: 99999999; height: 100vh; width: 10vw;"></div>-->
+<div class="sortButtonDiv" id="AllGamesDiv"
+    style="display: flex; align-items: flex-start; gap: 0; padding-top: 15px;">
+    <!-- Sort Dropdown -->
+    <div id="sortDropdownContainer" style="display: inline-block; position: relative;">
+      <button id="sortButton" onclick="toggleSortDropdownMenu()">
+        Sort: A-Z
+      </button>
+      <div id="sortDropdownMenu" class="dropdown-menu" style="display: none;">
+        <ul class="dropdown-inner">
+          <li onclick="selectSortOrder(0)">A-Z</li>
+          <li onclick="selectSortOrder(1)">Z-A</li>
+          <li onclick="selectSortOrder(2)">Added New-Old</li>
+          <li onclick="selectSortOrder(3)">Added Old-New</li>
+          <li onclick="selectSortOrder(4)">Release New-Old</li>
+          <li onclick="selectSortOrder(5)">Release Old-New</li>
+        </ul>
+      </div>
 
+    </div>
+
+    <!-- Filter Dropdown -->
+    <div id="filterDropdownContainer" style="display: inline-block; position: relative;">
+      <button id="filterButton" onclick="toggleDropdownMenu()">
+        Filter: All
+      </button>
+      <div id="filterDropdownMenu" class="dropdown-menu" style="display: none;">
+        <ul class="dropdown-inner">
+          <li onclick="selectFilter('All')">All</li>
+          <li onclick="selectFilter('multiplayer')">Multiplayer</li>
+          <li onclick="selectFilter('online')">Online</li>
+          <li onclick="selectFilter('shooter')">Shooter</li>
+          <li onclick="selectFilter('puzzle')">Puzzle</li>
+          <li onclick="selectFilter('endless')">Endless</li>
+          <li onclick="selectFilter('platformer')">Platformer</li>
+          <li onclick="selectFilter('driving')">Driving</li>
+          <li onclick="selectFilter('demo')">Demo</li>
+
+        </ul>
+      </div>
+    </div>
   <div class="container2">
     <div class="slick-carousel">
       <div class="carousel-item">
@@ -705,46 +744,7 @@
   </div>
   <script src="/js/list/online-list.js">generatePageListONLINE();</script>
   <br>
-  <div class="sortButtonDiv" id="AllGamesDiv"
-    style="display: flex; align-items: flex-start; gap: 0; padding-top: 15px;">
-    <!-- Sort Dropdown -->
-    <div id="sortDropdownContainer" style="display: inline-block; position: relative;">
-      <button id="sortButton" onclick="toggleSortDropdownMenu()">
-        Sort: A-Z
-      </button>
-      <div id="sortDropdownMenu" class="dropdown-menu" style="display: none;">
-        <ul class="dropdown-inner">
-          <li onclick="selectSortOrder(0)">A-Z</li>
-          <li onclick="selectSortOrder(1)">Z-A</li>
-          <li onclick="selectSortOrder(2)">Added New-Old</li>
-          <li onclick="selectSortOrder(3)">Added Old-New</li>
-          <li onclick="selectSortOrder(4)">Release New-Old</li>
-          <li onclick="selectSortOrder(5)">Release Old-New</li>
-        </ul>
-      </div>
 
-    </div>
-
-    <!-- Filter Dropdown -->
-    <div id="filterDropdownContainer" style="display: inline-block; position: relative;">
-      <button id="filterButton" onclick="toggleDropdownMenu()">
-        Filter: All
-      </button>
-      <div id="filterDropdownMenu" class="dropdown-menu" style="display: none;">
-        <ul class="dropdown-inner">
-          <li onclick="selectFilter('All')">All</li>
-          <li onclick="selectFilter('multiplayer')">Multiplayer</li>
-          <li onclick="selectFilter('online')">Online</li>
-          <li onclick="selectFilter('shooter')">Shooter</li>
-          <li onclick="selectFilter('puzzle')">Puzzle</li>
-          <li onclick="selectFilter('endless')">Endless</li>
-          <li onclick="selectFilter('platformer')">Platformer</li>
-          <li onclick="selectFilter('driving')">Driving</li>
-          <li onclick="selectFilter('demo')">Demo</li>
-
-        </ul>
-      </div>
-    </div>
 
     <style>
       /* Button Container */

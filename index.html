@@ -292,115 +292,9 @@
   <!--<div class="2" style="position: fixed; background-color: blue; z-index: 99999999; height: 1vh; width: 1vw; margin-top: 58.5vh;"></div>
  <div class="2" style="position: fixed; background-color: red; z-index: 99999999; height: 1vh; width: 1vw; margin-top: 66vh;"></div>
  div class="2" style="position: aboslute; background-color: blue; z-index: 99999999; height: 100vh; width: 10vw;"></div>-->
-<div class="sortButtonDiv" id="AllGamesDiv"
-    style="display: flex; align-items: flex-start; gap: 0; padding-top: 15px;">
-    <!-- Sort Dropdown -->
-    <div id="sortDropdownContainer" style="display: inline-block; position: relative;">
-      <button id="sortButton" onclick="toggleSortDropdownMenu()">
-        Sort: A-Z
-      </button>
-      <div id="sortDropdownMenu" class="dropdown-menu" style="display: none;">
-        <ul class="dropdown-inner">
-          <li onclick="selectSortOrder(0)">A-Z</li>
-          <li onclick="selectSortOrder(1)">Z-A</li>
-          <li onclick="selectSortOrder(2)">Added New-Old</li>
-          <li onclick="selectSortOrder(3)">Added Old-New</li>
-          <li onclick="selectSortOrder(4)">Release New-Old</li>
-          <li onclick="selectSortOrder(5)">Release Old-New</li>
-        </ul>
-      </div>
 
-    </div>
-
-    <!-- Filter Dropdown -->
-    <div id="filterDropdownContainer" style="display: inline-block; position: relative;">
-      <button id="filterButton" onclick="toggleDropdownMenu()">
-        Filter: All
-      </button>
-      <div id="filterDropdownMenu" class="dropdown-menu" style="display: none;">
-        <ul class="dropdown-inner">
-          <li onclick="selectFilter('All')">All</li>
-          <li onclick="selectFilter('multiplayer')">Multiplayer</li>
-          <li onclick="selectFilter('online')">Online</li>
-          <li onclick="selectFilter('shooter')">Shooter</li>
-          <li onclick="selectFilter('puzzle')">Puzzle</li>
-          <li onclick="selectFilter('endless')">Endless</li>
-          <li onclick="selectFilter('platformer')">Platformer</li>
-          <li onclick="selectFilter('driving')">Driving</li>
-          <li onclick="selectFilter('demo')">Demo</li>
-
-        </ul>
-      </div>
-    </div>
   <div class="container2">
-    <div class="slick-carousel">
-      <div class="carousel-item">
-        <div class="image-container">
-          <a class="info" href="/games/flow.html"> <!--Class info means small info text-->
-            <img src="/images/games/flow.png" alt="flOw">
-            <p>flOw</p>
-            <span class="info">
-              <p>Recently added</p>
-            </span>
-          </a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="image-container">
-          <a class="info" href="/games/polytrack.html">
-            <img src="/images/games/polytrack.png" alt="Polytrack">
-            <p>Polytrack v0.4.1</p>
-            <span class="info">
-              <p>Rank #1 in Popularity</p>
-            </span>
-          </a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="image-container">
-          <a class="info" href="/games/among-us-online.html">
-            <img src="/images/games/among-us-online.png" alt="Among Us Online">
-            <p>Among Us Online</p>
-            <span class="info">
-              <p>Rank #2 in Popularity</p>
-            </span>
-          </a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="image-container">
-          <a class="info" href="/games/bitlife.html">
-            <img src="/images/games/bitlife.png" alt="Bitlife">
-            <p>Bitlife</p>
-            <span class="info">
-              <p>Rank #3 in Popularity</p>
-            </span>
-          </a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="image-container">
-          <a class="info" href="/games/slope.html">
-            <img src="/images/games/slope.png" alt="Slope">
-            <p>Slope</p>
-            <span class="info">
-              <p>Rank #4 in Popularity</p>
-            </span>
-          </a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="image-container">
-          <a class="info" href="/games/celeste-classic-2-lanis-treck.html">
-            <img src="/images/games/celeste-classic-2-lanis-treck.png" alt="Celeste Classic 2">
-            <p>Celeste Classic 2</p>
-            <span class="info">
-              <p>Recently added</p>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
+
 
     <script type="text/javascript" src="slide/jquery/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="slide/query/jquery-migrate-1.2.1.min.js"></script>
@@ -744,7 +638,7 @@
   </div>
   <script src="/js/list/online-list.js">generatePageListONLINE();</script>
   <br>
-
+  
 
     <style>
       /* Button Container */
