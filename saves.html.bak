@@ -9,8 +9,7 @@
     <script src="main.js" defer></script>
     <script src="js/edit-data.js" defer></script>
     <link rel="stylesheet" type="text/css" href="/fonts/fonts.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3884068607751462"
-    crossorigin="anonymous"></script>
+
     <style>
         body {
             margin: 0;

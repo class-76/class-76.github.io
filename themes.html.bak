@@ -229,7 +229,20 @@ input {
 
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfe-TUAliierJbhdwvuuRaKCjGCi6oYb_ne8_R06tGtSbwGNQ/viewform?usp=sf_link"><button id="export" style="width: 30vw;">Submit your Theme to be Featured!</button></a>
     <div class="image-container">
-
+      <!--  <img src="/background.png" alt="Default Blue Swirls" button-id="default-swirls">
+        <img src="/images/backgrounds/background-old.png" alt="Default Blue Lines" button-id="default-lines">
+        <p id="author-name">By Author</p>
+        <img src="/images/backgrounds/background-old.png" alt="Default Blue Lines" button-id="red-swirls">
+        <img src="/images/backgrounds/background-red-old.png" alt="Image 4" button-id="default-swirls">
+        <img src="/images/backgrounds/background-green.png" alt="Image 5" data-background="/images/backgrounds/background-green.png" data-primary-color="#112C15" data-secondary-color="#5dfc58" data-background-res="1280">
+        <img src="/images/backgrounds/background-green-old.png" alt="Image 6" data-background="/images/backgrounds/background-green-old.png" data-primary-color="#112C15" data-secondary-color="#5dfc58" data-background-res="1280">
+        <img src="/images/backgrounds/background-purple.png" alt="Image 7" data-background="/images/backgrounds/background-purple.png" data-primary-color="#2C112A" data-secondary-color="#e158fc" data-background-res="1280">
+        <img src="/images/backgrounds/background-purple-old.png" alt="Image 8" data-background="/images/backgrounds/background-purple-old.png" data-primary-color="#2C112A" data-secondary-color="#e158fc" data-background-res="1280">
+        <img src="/images/backgrounds/white-and-black.png" alt="Image 9" data-background="/images/backgrounds/white-and-black.png" data-primary-color="#232323" data-secondary-color="#FDFDFD" data-background-res="720">
+        <img src="/images/backgrounds/topor.png" alt="Image 10" data-background="/images/backgrounds/topor.png" data-primary-color="#DD1766" data-secondary-color="#271117" data-background-res="980">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/200px-Rotating_earth_%28large%29.gif" alt="Image 11" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/200px-Rotating_earth_%28large%29.gif" data-primary-color="#ffffff" data-secondary-color="#000000" data-background-res="1280">
+        <img src="https://images4.alphacoders.com/109/thumb-1920-1098025.png" alt="Image 12" data-background="https://images4.alphacoders.com/109/thumb-1920-1098025.png" data-primary-color="#080116" data-secondary-color="#F565C4" data-background-res="1920">
+    -->
         <div class="image-item">
             <img src="/images/backgrounds/background-blue.png" alt="Default Blue Swirls" button-id="default-swirls">
             <p style="color: transparent; text-shadow: none;">none</p>
