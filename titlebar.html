@@ -1,0 +1,52 @@
+<body>
+  <div class="title-bar" id="dynamic-title-bar">
+    <div class="title-content">
+      <h2 id="title-text"></h2>
+    </div>
+    <div class="titlebar-buttons">
+
+      <!-- Download SWF File -->
+      <button class="download-button" onclick="downloadSWF()">
+        <span class="tooltiptext">Download Game</span>
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px">
+          <path
+            d="M 28.654 29.713 L 12.795 29.713 L 12.795 29.714 L 1.795 29.714 L 1.795 18.714 L 5.795 18.714 L 5.795 25.681 L 25.777 25.681 L 25.777 18.7 L 29.777 18.7 L 29.777 29.7 L 28.654 29.7 Z"
+            style="stroke: var(--primary-color); shape-rendering: geometricprecision;" id="object-0"></path>
+          <path
+            d="M 10.159 8.793 L 21.159 8.793 L 21.159 19.793 L 17.159 19.793 L 17.159 12.793 L 10.159 12.793 L 10.159 8.793 Z"
+            style="transform-box: fill-box; transform-origin: 50% 50%;"
+            transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0.000002)"></path>
+          <rect x="13.765" y="2.367" width="3.987" height="13.802"
+            style="stroke: var(--primary-color); transform-origin: 15.759px 9.268px;"></rect>
+        </svg>
+      </button>
+
+      <!-- Open in New Tab -->
+      <button class="fullscreen-button-2" onclick="fullscreenFunction2()">
+        <span class="tooltiptext">Open in New Tab</span>
+        <svg fill="var(--primary-color)" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="32px"
+          height="32px">
+          <path
+            d="M 1.75 1.75 L 12.75 1.75 L 12.75 5.75 L 5.77 5.75 L 5.77 25.7 L 25.75 25.7 L 25.75 18.75 L 29.75 18.75 L 29.75 29.75 L 18.75 29.75 L 18.75 29.732 L 12.75 29.732 L 12.75 29.75 L 1.75 29.75 L 1.75 26.492 L 1.738 26.492 L 1.738 2.277 L 1.75 2.277 Z">
+          </path>
+          <path d="M18.75 1.75h11v11h-4v-7h-7v-4z"></path>
+          <rect x="18.052" y="4.992" width="3.987" height="13.802"
+            style="stroke: var(--primary-color); transform-origin: 20.046px 11.893px;"
+            transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 0.674335, -1.164747)"></rect>
+        </svg>
+      </button>
+
+      <!-- Fullscreen -->
+      <button class="fullscreen-button-1" onclick="fullscreenFunction1()">
+        <span class="tooltiptext">Fullscreen</span>
+        <svg fill="var(--primary-color)" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.75 1.75h11v4h-7v7h-4v-11z" />
+          <path d="M18.75 1.75h11v11h-4v-7h-7v-4z" />
+          <path d="M1.75 18.75h4v7h7v4h-11v-11z" />
+          <path d="M25.75 18.75h4v11h-11v-4h7v-7z" />
+        </svg>
+      </button>
+
+    </div>
+  </div>
+</body>

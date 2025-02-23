@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Customisation</title>
+    <link rel="stylesheet" type="text/css" href="/games.css">
+    <link rel="stylesheet" type="text/css" href="/effects.css">
+
+    <script src="/analytics.js"></script>
+    <script src="/themes.js"></script>
+
+    <style>
+ body {
+            font-family: "M Plus Rounded 1c", sans-serif;
+            background-position: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: var(--primary-color);
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        #export {
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+        }
+
+        input[type="text"],
+        input[type="color"],
+        button[type="submit"],
+        button[type="button"] {
+            text-shadow: 1px 1px 8px black !important;
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            border: 1px solid var(--primary-color);
+            box-sizing: border-box;
+            background-color: white;
+            color: var(--secondary-color);
+        }
+
+        input[type="color"]::-webkit-color-swatch-wrapper {
+            padding: 0;
+        }
+
+        input[type="color"]::-webkit-color-swatch {
+            border: none;
+        }
+
+        button[type="submit"],
+        button[type="button"] {
+            font-size: large;
+            padding: 10px 20px;
+            background-color: var(--primary-color);
+            text-shadow: none !important;
+            color: var(--secondary-color);
+            outline: solid 0.1vw var(--primary-color);
+            border: solid 0.3vw var(--primary-color);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover,
+        button[type="button"]:hover {
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+        }
+
+        .selected {
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        #default-button {
+            display: block;
+            margin: 10px auto;
+            width: 600px;
+            text-align: center;
+        }
+
+        button[type="submit"],
+        button[type="button"],
+        #default-button {
+            display: block;
+            margin: 10px auto;
+            /* Center the buttons horizontally */
+            width: 600px;
+            /* Set a fixed width for all buttons */
+            text-align: center;
+            /* Center text within buttons */
+        }
+
+
+/* IMAGE BUTTON STYLING!!!! */
+/* Image container setup */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images horizontally */
+    gap: 2vw; /* Equal gap between items */
+    text-align: center;
+    margin: 4vh; /* Margin around the entire container (top and sides) */
+    
+}
+
+/* Each image item (image + text) */
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw; /* Fixed width for each item */
+    margin-bottom: -4vh;
+    transform: scale(1);
+    transition: transform 0.15s ease-out;
+}
+
+.image-item:hover {
+    transform: scale(1.05);
+}
+
+.image-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio automatically */
+    aspect-ratio: 16 / 9; /* Ensure the image has a 16:9 aspect ratio */
+    border: 3px solid white; /* Border size */
+    border-radius: 0.4vw; /* Rounded corners */
+    object-fit: cover; /* Ensure the image covers the container */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Light box shadow */
+    cursor: pointer;
+}
+
+/* Author text styling */
+.image-item p {
+    color: white;
+    font-size: 1.3vw; 
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+    margin-top: 0; /* Reduced space between image and text */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 2.1; /* Prevent cutting off letters */
+    padding: 0.2vw;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+input {
+    color: black !important;
+}
+    </style>
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+    <div class="navbar-spacer" style="margin-top: -30px;"></div>
+    <div class="container" style="margin-bottom: -10px;">
+        <p style="font-family: League Gothic; margin-top: -10px; margin-bottom: 0px; font-size: 4rem; text-align: center;">
+            Customisation
+        </p>
+        <form id="settings-form">
+            <div>
+                <label for="background-image">Background Image URL:</label><br>
+                <input type="text" id="background-image" name="background-image">
+            </div>
+            <div>
+                <label for="primary-color">Text Colour:</label><br>
+                <input type="color" id="primary-color" name="primary-color" value="#000000">
+            </div>
+            <div>
+                <label for="background-color">Secondary Colour:</label><br>
+                <input type="color" id="background-color" name="background-color" value="#ffffff">
+            </div>
+            <div>
+                <label for="background-res">Background Resolution in Viewport Width 100=100% of screen width:</label><br>
+                <input type="text" id="background-res" name="background-res" placeholder="e.g. 100">
+            </div>
+            <button type="submit">Save Settings</button>
+            <button type="button" id="default-button">Reset to Default</button>
+        </form>
+    </div>
+    <p style="text-shadow: 1px 1px 2px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;">Click on an image below to use a premade theme ↓</p>
+    <button id="export" style="width: 30vw; margin: 2vh;" onclick="downloadCustomisation()">View Theme Data</button>
+    <script>
+ function downloadCustomisation() {
+    const customisationData = localStorage.getItem("customisation");
+
+    const newWindow = window.open("about:blank", "_blank");
+
+    if (newWindow) {
+        newWindow.document.write(`<head><title>Customisation Data</title></head><pre>${customisationData}</pre>`);
+        newWindow.document.close(); 
+    } else {
+        console.error("Failed to open a new window.");
+    }
+}
+
+         </script>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfe-TUAliierJbhdwvuuRaKCjGCi6oYb_ne8_R06tGtSbwGNQ/viewform?usp=sf_link"><button id="export" style="width: 30vw;">Submit your Theme to be Featured!</button></a>
+    <div class="image-container">
+      <!--  <img src="/background.png" alt="Default Blue Swirls" button-id="default-swirls">
+        <img src="/images/backgrounds/background-old.png" alt="Default Blue Lines" button-id="default-lines">
+        <p id="author-name">By Author</p>
+        <img src="/images/backgrounds/background-old.png" alt="Default Blue Lines" button-id="red-swirls">
+        <img src="/images/backgrounds/background-red-old.png" alt="Image 4" button-id="default-swirls">
+        <img src="/images/backgrounds/background-green.png" alt="Image 5" data-background="/images/backgrounds/background-green.png" data-primary-color="#112C15" data-secondary-color="#5dfc58" data-background-res="1280">
+        <img src="/images/backgrounds/background-green-old.png" alt="Image 6" data-background="/images/backgrounds/background-green-old.png" data-primary-color="#112C15" data-secondary-color="#5dfc58" data-background-res="1280">
+        <img src="/images/backgrounds/background-purple.png" alt="Image 7" data-background="/images/backgrounds/background-purple.png" data-primary-color="#2C112A" data-secondary-color="#e158fc" data-background-res="1280">
+        <img src="/images/backgrounds/background-purple-old.png" alt="Image 8" data-background="/images/backgrounds/background-purple-old.png" data-primary-color="#2C112A" data-secondary-color="#e158fc" data-background-res="1280">
+        <img src="/images/backgrounds/white-and-black.png" alt="Image 9" data-background="/images/backgrounds/white-and-black.png" data-primary-color="#232323" data-secondary-color="#FDFDFD" data-background-res="720">
+        <img src="/images/backgrounds/topor.png" alt="Image 10" data-background="/images/backgrounds/topor.png" data-primary-color="#DD1766" data-secondary-color="#271117" data-background-res="980">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/200px-Rotating_earth_%28large%29.gif" alt="Image 11" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/200px-Rotating_earth_%28large%29.gif" data-primary-color="#ffffff" data-secondary-color="#000000" data-background-res="1280">
+        <img src="https://images4.alphacoders.com/109/thumb-1920-1098025.png" alt="Image 12" data-background="https://images4.alphacoders.com/109/thumb-1920-1098025.png" data-primary-color="#080116" data-secondary-color="#F565C4" data-background-res="1920">
+    -->
+        <div class="image-item">
+            <img src="/images/backgrounds/background-blue.png" alt="Default Blue Swirls" button-id="default-swirls">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/background-blue-old.png" alt="Default Blue Lines" button-id="default-lines">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/background-red.png" alt="Red Swirls" button-id="red-swirls">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/background-red-old.png" alt="Red Lines" button-id="red-lines">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/background-green.png" alt="Green Swirls" button-id="green-swirls">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/background-green-old.png" alt="Green Lines" button-id="green-lines">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/background-purple.png" alt="Purple Swirl" button-id="purple-swirls">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/background-purple-old.png" alt="Purple Lines" button-id="purple-lines">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/white-and-black.png" alt="Image 9" button-id="white-and-black">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/topor.png" alt="Red Topography" button-id="red-topo">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/200px-Rotating_earth_%28large%29.gif" alt="Spinning Globe" button-id="globe">
+            <p style="color: transparent; text-shadow: none;">none</p>
+        </div>
+        <div class="image-item">
+            <img src="/images/backgrounds/bisbiswas.png" alt="Pink Path" button-id="pink-path">
+            <p id="author-name">By BisBiswas <!--<span style="font-size: xx-small;">(proof needed)</span>--></p>
+        </div>
+        <div class="image-item">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/359/502/original/vector-purple-landscape-illustration.png" alt="mountains" button-id="mountains">
+            <p id="author-name">By Cozy_Coding08</p>
+        </div>
+        <div class="image-item">
+            <img src="https://fanboysmarketplace.com/wp-content/uploads/2023/01/howls3-1024x576.jpeg" alt="Howls Grass Hill" button-id="howls">
+            <p id="author-name">By Iris</p>
+        </div>
+        <div class="image-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jack_O_Lanterns.jpg/800px-Jack_O_Lanterns.jpg?20121027173654" alt="Halloween 2024 Pumpkins" button-id="halloween-2024">
+            <p id="author-name">Halloween 2024</p>
+        </div>
+        <div class="image-item" id="christmas-2024">
+            <img src="/images/backgrounds/christmas-2024.png" alt="Christmas 2024" button-id="christmas-2024">
+            <p id="author-name">Christmas 2024</p>
+        </div>
+    </div>
+    <script src="/main.js" defer></script>
+    <script>
+    
+document.getElementById('settings-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    saveSettingsAndReload();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve stored customization data from local storage
+    const customisationData = localStorage.getItem('customisation');
+
+    // Check if data exists
+    if (customisationData) {
+        const [backgroundImage, primaryColor, secondaryColor, backgroundRes] = customisationData.split('\n');
+
+        // Populate the form fields with stored values
+        if (backgroundImage) document.getElementById('background-image').value = backgroundImage;
+        if (primaryColor) document.getElementById('primary-color').value = primaryColor;
+        if (secondaryColor) document.getElementById('background-color').value = secondaryColor;
+        if (backgroundRes) document.getElementById('background-res').value = backgroundRes;
+    }
+});
+
+//document.getElementById('default-button').addEventListener('click', function () {
+  //  const defaultCustomisation = [
+        //'/background.png',
+        //'',
+      //  '#58AAFC',
+    //    '1280'
+  //  ].join('\n');
+
+    //localStorage.setItem('customisation', defaultCustomisation);
+  //  location.reload();
+//});
+
+
+
+function saveSettingsAndReload() {
+    const backgroundImageValue = document.getElementById('background-image').value;
+    const primaryColorValue = document.getElementById('primary-color').value;
+    const secondaryColorValue = document.getElementById('background-color').value;
+    const backgroundResValue = document.getElementById('background-res').value;
+
+    // Validate URL
+    if (!isValidUrl(backgroundImageValue)) {
+        alert('Invalid URL for background image.');
+        return;
+    }
+    // Validate Background Resolution
+    if (backgroundResValue && !isValidPixelValue(backgroundResValue)) {
+        alert('Background resolution must be a valid vw value. e.g. "0", "75", "120"');
+        return;
+    }
+
+    const customisationData = [
+        backgroundImageValue,
+        primaryColorValue,
+        secondaryColorValue,
+        backgroundResValue
+    ].join('\n');
+
+    localStorage.setItem('customisation', customisationData);
+
+    // Reload page after 10ms to ensure settings are saved
+    setTimeout(() => location.reload(), 10);
+}
+
+function isValidUrl(url) {
+    // Allow relative paths that start with a /
+    if (url.startsWith('/')) {
+        return true;
+    }
+    try {
+        new URL(url);
+        return true;
+    } catch {
+        return false;
+    }
+}
+
+function isValidPixelValue(value) {
+    return /^[0-9]+$/.test(value);
+}
+
+// Existing script
+document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('click', function() {
+        // Old background change logic (if any)
+    });
+});
+
+function applyThemeById(themeId) {
+    const theme = customisationStoredData.find(item => item.id === themeId);
+    if (theme) {
+        // Update the form fields
+        document.getElementById('background-image').value = theme['data-background'];
+        document.getElementById('primary-color').value = theme['data-primary-color'];
+        document.getElementById('background-color').value = theme['data-secondary-color'];
+        document.getElementById('background-res').value = theme['data-background-res'];
+
+        // Save settings and reload
+        saveSettingsAndReload();
+    }
+}
+
+document.querySelectorAll('img[button-id]').forEach(img => {
+    img.addEventListener('click', function () {
+        const buttonId = img.getAttribute('button-id');
+        applyThemeById(buttonId);
+    });
+});
+
+
+// Event listener for the default button
+document.getElementById('default-button').addEventListener('click', function () {
+    // Set the form fields to predetermined default values
+    const defaultCustomisation = [
+        '',
+        '',
+        '',
+        '',
+        'default'
+   ].join('\n');
+   localStorage.setItem('customisation', defaultCustomisation);
+    // Reload so there are no warnings
+    setTimeout(() => location.reload(), 10);
+});
+
+
+    </script>
+</body>
+
+</html>

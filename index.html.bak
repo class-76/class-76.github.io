@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cool Unblocked Games</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-4293684626558852" />
+  <link rel="icon" type="image/x-icon" sizes="48x48" href="/favicon.ico" />
+  <link rel="icon" type="shortcut icon" sizes="48x48" href="/favicon.ico" />
+  <link rel="icon" type="apple-touch-icon" sizes="48x48" href="/favicon.ico" />
+  <meta property="og:image" content="/logo.png" />
+  <meta property="og:url" content="https://class-76.github.io/" />
+  <meta property="og:site_name" content="Cool Unblocked Games" />
+  <meta name="theme-color" content="#58aafc" />
+  <meta name="google-site-verification" content="Q-GasTm6p0RsCSA7j-x1U7mX_Cz6ItjUz8q3bzM6YYo" />
+  <link rel="stylesheet" type="text/css" href="/games.css">
+  <link rel="stylesheet" type="text/css" href="/effects.css">
+  <meta property="og:description"
+    content="Explore Cool, Free, Unblocked Games. Run 3, Learn to Fly 2, Slope, Jacksmith, Tanuki Sunset, Moto X3M, Jelly Truck" />
+  <meta name="description"
+    content="Explore Cool, Free, Unblocked Games at Cool Unblocked Games / CoolUBG. Play games at school, work, home, on any internet connection" />
+  <meta name="author" content="CiscoHA on github" />
+
+  <script src="/analytics.js" async></script>
+  <script src="/tracking.js" defer></script>
+  <script src="/main.js" defer></script>
+  <script src="/pages.js"></script>
+  <script src="js/calculate-playtime.js"></script>
+
+  <script>
+
+    function highlightImage2(elementId, textId) {
+      var img = document.getElementById(elementId);
+      var listItem = img.closest("li"); // Select the parent list item
+
+      // Apply subtle scale to the list item for a smoother effect
+      listItem.style.transform = "scale(1.06)";
+      listItem.style.transition = "transform 0.15s ease-out"; // Starts slow, then accelerates with an elastic effect
+      // Apply multiple box-shadow layers to the image with a smooth outline effect
+      img.style.boxShadow = "1px 1px 12px #fc5858, 1px 1px 10px #fc5858";
+      img.style.outline = "0.25vw solid #fc5858"
+      img.style.transition = "box-shadow 0.15s ease-out, outline 0.15s ease-out";
+
+      // Underline the associated text
+      var litext = img.parentNode.parentNode.querySelector(`#${textId}`);
+      litext.style.textDecoration = "none";
+      litext.style.opacity = "1";
+      litext.style.transition = "opacity 0.2s ease-out";
+
+      var textback = img.parentNode.parentNode.querySelector('.suggest-text-back');
+
+      textback.style.transition = "opacity 0.4s ease-out";
+      textback.style.opacity = "0";
+    }
+
+    function removeHighlight2(elementId, textId) {
+      var img = document.getElementById(elementId);
+      var listItem = img.closest("li"); // Select the parent list item
+
+      // Apply subtle scale to the list item for a smoother effect
+      listItem.style.transform = "scale(1.0)";
+      listItem.style.transition = "transform 0.15s ease-out"; // Starts slow, then accelerates with an elastic effect
+
+      // Apply multiple box-shadow layers to the image with a smooth outline effect
+      img.style.boxShadow = "0px 0px 7px #000";
+      img.style.outline = "0.25vw solid transparent"
+      img.style.transition = "box-shadow 0.15s ease-out, outline 0.15s ease-out";
+
+      // Underline the associated text
+      var litext = img.parentNode.parentNode.querySelector(`#${textId}`);
+      litext.style.textDecoration = "none";
+      litext.style.opacity = "0";
+      litext.style.transition = "opacity 0.2s ease-out";
+
+      var textback = img.parentNode.parentNode.querySelector('.suggest-text-back');
+      textback.style.transition = "opacity 0.1s ease-out";
+      textback.style.opacity = "0"
+    }
+    // L
+    function highlightImageL(elementId, textId) {
+      var img = document.getElementById(elementId);
+      var listItem = img.closest("li"); // Select the parent list item
+
+      // Apply subtle scale to the list item for a smoother effect
+      listItem.style.transform = "scale(1.06)";
+      listItem.style.transition = "transform 0.15s ease-out"; // Starts slow, then accelerates with an elastic effect
+      // Apply multiple box-shadow layers to the image with a smooth outline effect
+      img.style.boxShadow = "1px 1px 12px #58aafc, 1px 1px 10px #58aafc";
+      img.style.outline = "0.25vw solid #58aafc"
+      img.style.transition = "box-shadow 0.15s ease-out, outline-color 0.15s ease-out";
+
+      // Underline the associated text
+      var litext = img.parentNode.parentNode.querySelector(`#${textId}`);
+      litext.style.textDecoration = "none";
+      litext.style.opacity = "1";
+      litext.style.transition = "opacity 0.2s ease-out";
+
+      var textback = img.parentNode.parentNode.querySelector('.suggest-text-back');
+
+      textback.style.transition = "opacity 0.4s ease-out";
+      textback.style.opacity = "0";
+    }
+
+    function removeHighlightL(elementId, textId) {
+      var img = document.getElementById(elementId);
+      var listItem = img.closest("li"); // Select the parent list item
+
+      // Apply subtle scale to the list item for a smoother effect
+      listItem.style.transform = "scale(1.0)";
+      listItem.style.transition = "transform 0.15s ease-out"; // Starts slow, then accelerates with an elastic effect
+
+      // Apply multiple box-shadow layers to the image with a smooth outline effect
+      img.style.boxShadow = "0px 0px 7px #000";
+      img.style.outline = "0.25vw solid transparent"
+      img.style.transition = "box-shadow 0.15s ease-out, outline-color 0.15s ease-out";
+
+      // Underline the associated text
+      var litext = img.parentNode.parentNode.querySelector(`#${textId}`);
+      litext.style.textDecoration = "none";
+      litext.style.opacity = "0";
+      litext.style.transition = "opacity 0.2s ease-out";
+
+      var textback = img.parentNode.parentNode.querySelector('.suggest-text-back');
+      textback.style.transition = "opacity 0.1s ease-out";
+      textback.style.opacity = "0"
+    }
+    // P
+    function highlightImageP(elementId, textId) {
+      var img = document.getElementById(elementId);
+      var listItem = img.closest("li"); // Select the parent list item
+
+      // Apply subtle scale to the list item for a smoother effect
+      listItem.style.transform = "scale(1.06)";
+      listItem.style.transition = "transform 0.15s ease-out"; // Starts slow, then accelerates with an elastic effect
+      // Apply multiple box-shadow layers to the image with a smooth outline effect
+      img.style.boxShadow = "1px 1px 12px #D058FC, 1px 1px 10px #58aafc";
+      img.style.outline = "0.25vw solid #D058FC"
+      img.style.transition = "box-shadow 0.15s ease-out, outline-color 0.15s ease-out";
+
+      // Underline the associated text
+      var litext = img.parentNode.parentNode.querySelector(`#${textId}`);
+      litext.style.textDecoration = "none";
+      litext.style.opacity = "1";
+      litext.style.transition = "opacity 0.2s ease-out";
+
+      var textback = img.parentNode.parentNode.querySelector('.suggest-text-back');
+
+      textback.style.transition = "opacity 0.4s ease-out";
+      textback.style.opacity = "0";
+    }
+
+    function removeHighlightP(elementId, textId) {
+      var img = document.getElementById(elementId);
+      var listItem = img.closest("li"); // Select the parent list item
+
+      // Apply subtle scale to the list item for a smoother effect
+      listItem.style.transform = "scale(1.0)";
+      listItem.style.transition = "transform 0.15s ease-out"; // Starts slow, then accelerates with an elastic effect
+
+      // Apply multiple box-shadow layers to the image with a smooth outline effect
+      img.style.boxShadow = "0px 0px 7px #000";
+      img.style.outline = "0.25vw solid transparent"
+      img.style.transition = "box-shadow 0.15s ease-out, outline-color 0.15s ease-out";
+
+      // Underline the associated text
+      var litext = img.parentNode.parentNode.querySelector(`#${textId}`);
+      litext.style.textDecoration = "none";
+      litext.style.opacity = "0";
+      litext.style.transition = "opacity 0.2s ease-out";
+
+      var textback = img.parentNode.parentNode.querySelector('.suggest-text-back');
+      textback.style.transition = "opacity 0.1s ease-out";
+      textback.style.opacity = "0"
+    }
+
+    const DB_NAME = "PlaytimeDB";
+    const STORE_NAME = "playtimeLogs";
+    const DB_VERSION = 1;
+
+
+  </script>
+
+  <style>
+    a {
+      all: unset;
+      /* Reset all styles applied to <a> */
+      color: inherit;
+      /* Inherit color from parent */
+      text-decoration: none;
+      /* Remove underline */
+      cursor: pointer;
+      background: transparent;
+      /* Ensure no background color */
+      border: none;
+      /* Remove borders if any */
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .suggest-game {
+      padding: 0.6vh;
+    }
+
+    .suggest-game a {
+      display: block;
+      white-space: nowrap;
+      text-decoration: none;
+      color: white;
+      text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+      font-size: 1.4vw;
+      overflow: hidden !important;
+      margin-top: -1.2vh;
+    }
+
+    .suggest-game img {
+      margin: 0.6vh;
+      border-radius: 0.4vw;
+      position: relative;
+      width: 16.8vw;
+      height: auto;
+    }
+
+    ul.game-list {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #pageListNEW img {
+      width: 20.3vw !important;
+      height: calc(20.3vw * 9 / 16) !important;
+    }
+
+    #recently-played img {
+      width: 16.8vw !important;
+    }
+
+    ul.game-list li {
+      display: inline-block;
+      margin-right: 0.6vh;
+      margin-bottom: 0.6vh;
+    }
+
+    .game-list {
+      font-family: "M Plus Rounded 1c", sans-serif;
+      font-weight: bold;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: transparent !important;
+    }
+
+    .underline {
+      text-decoration: underline !important;
+    }
+
+    .sortButtonDiv {
+      margin-top: 20px;
+    }
+
+    .container2 {
+      position: absolute;
+      top: 10.4vh;
+      left: 0;
+      height: 96vh;
+      max-height: 96vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .image-container {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="slide/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slide/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="slide/style.css" />
+  <link rel="stylesheet" type="text/css" href="/fonts/fonts.css" />
+
+</head>
+
+<body>
+  <div id="navbar-container"></div>
+  <!--<div class="3" style="top: 0; height: 11vh; width: 100%; background-color: #58aafc; position: absolute;"></div>-->
+  <div class="carousel-spacer" style="margin-top: 92vh;"></div>
+  <!--<div class="2" style="position: fixed; background-color: blue; z-index: 99999999; height: 1vh; width: 1vw; margin-top: 58.5vh;"></div>
+ <div class="2" style="position: fixed; background-color: red; z-index: 99999999; height: 1vh; width: 1vw; margin-top: 66vh;"></div>
+ div class="2" style="position: aboslute; background-color: blue; z-index: 99999999; height: 100vh; width: 10vw;"></div>-->
+
+
+  <div class="important"
+    style="position: absolute; right: 1%; top: 70.2vh; width: 10%; height: 78%; max-width: 140px; max-height: 564px;">
+    <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4293684626558852"
+      crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display: inline-block; width: 140px; height: 564px"
+      data-ad-client="ca-pub-4293684626558852" data-ad-slot="6738911587"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <div class="important"
+    style="position: absolute; left: 1%; top: 70.2vh; width: 10%; height: 78%; max-width: 140px; max-height: 564px;">
+    <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4293684626558852"
+      crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display: inline-block; width: 140px; height: 564px"
+      data-ad-client="ca-pub-4293684626558852" data-ad-slot="6738911587"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <div class="container2">
+    <div class="slick-carousel">
+      <div class="carousel-item">
+        <div class="image-container">
+          <a class="info" href="/games/flow.html"> <!--Class info means small info text-->
+            <img src="/images/games/flow.png" alt="flOw">
+            <p>flOw</p>
+            <span class="info">
+              <p>Recently added</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <a class="info" href="/games/polytrack.html">
+            <img src="/images/games/polytrack.png" alt="Polytrack">
+            <p>Polytrack v0.4.1</p>
+            <span class="info">
+              <p>Rank #1 in Popularity</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <a class="info" href="/games/among-us-online.html">
+            <img src="/images/games/among-us-online.png" alt="Among Us Online">
+            <p>Among Us Online</p>
+            <span class="info">
+              <p>Rank #2 in Popularity</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <a class="info" href="/games/bitlife.html">
+            <img src="/images/games/bitlife.png" alt="Bitlife">
+            <p>Bitlife</p>
+            <span class="info">
+              <p>Rank #3 in Popularity</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <a class="info" href="/games/slope.html">
+            <img src="/images/games/slope.png" alt="Slope">
+            <p>Slope</p>
+            <span class="info">
+              <p>Rank #4 in Popularity</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <a class="info" href="/games/celeste-classic-2-lanis-treck.html">
+            <img src="/images/games/celeste-classic-2-lanis-treck.png" alt="Celeste Classic 2">
+            <p>Celeste Classic 2</p>
+            <span class="info">
+              <p>Recently added</p>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="slide/jquery/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="slide/query/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slide/slick/slick.min.js"></script>
+    <script type="text/javascript" src="slide/start-carousel.js"></script>
+    <script type="text/javascript" src="slide/hover.js"></script>
+
+    <p id="list-type" style="
+    font-size: 4.4vh;
+    font-family: 'League Gothic';
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2.4vh;
+    box-shadow: none !important;
+    text-decoration: none;
+    color: #fc5858;
+    text-align: center;
+    outline: #fc5858 solid 4px;
+    border-radius: 5px;
+    padding: 0.6vh;
+  ">
+      Continue Playing
+    </p>
+    <ul id="recently-played" class="game-list"
+      style="color: transparent; list-style-type: none; padding: 0; margin: 0px;">
+      <li>
+        <div class="suggest-game">
+          <a href="#">
+            <div style="
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            z-index: 3;
+            margin-left: 0.4rem;
+            margin-top: -0.4rem;
+            width: 15.45rem;
+            height: 12rem;
+          " onmouseover="highlightImage2('suggest-imgC1', 'suggest-text1')"
+              onmouseout="removeHighlight2('suggest-imgC1', 'suggest-text1')"></div>
+
+            <img id="suggest-imgC1" src="/images/games/missing.png" alt="Recently Played" />
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="suggest-game">
+          <a href="#">
+            <div style="
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            z-index: 3;
+            margin-left: 0.4rem;
+            margin-top: -0.4rem;
+            width: 15.45rem;
+            height: 12rem;
+          " onmouseover="highlightImage2('suggest-imgC1', 'suggest-text1')"
+              onmouseout="removeHighlight2('suggest-imgC1', 'suggest-text1')"></div>
+
+            <img id="suggest-imgC1" src="/images/games/missing.png" alt="Recently Played" />
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="suggest-game">
+          <a href="#">
+            <div style="
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            z-index: 3;
+            margin-left: 0.4rem;
+            margin-top: -0.4rem;
+            width: 15.45rem;
+            height: 12rem;
+          " onmouseover="highlightImage2('suggest-imgC1', 'suggest-text1')"
+              onmouseout="removeHighlight2('suggest-imgC1', 'suggest-text1')"></div>
+
+            <img id="suggest-imgC1" src="/images/games/missing.png" alt="Recently Played" />
+
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="suggest-game">
+          <a href="#">
+            <div style="
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            z-index: 3;
+            margin-left: 0.4rem;
+            margin-top: -0.4rem;
+            width: 15.45rem;
+            height: 12rem;
+          " onmouseover="highlightImage2('suggest-img1', 'suggest-text1')"
+              onmouseout="removeHighlight2('suggest-img1', 'suggest-text1')"></div>
+
+            <img id="suggest-imgC1" src="/images/games/missing.png" alt="Recently Played" />
+
+          </a>
+        </div>
+      </li>
+    </ul>
+    <br>
+  </div>
+  <div class="news-container">
+    <!-- Left section -->
+    <div class="left-section">
+      <div class="buttons">
+        <a href="https://linktr.ee/coolbugubg">
+          <button class="github-btn">Github & Other Websites</button>
+        </a>
+        <a href="/changelog.html">
+          <button class="github-btn">Changelog</button>
+        </a>
+      </div>
+      <p class="section-text">
+        this website is so cool
+        <br><br>
+        Last Update:
+        <a href="/changelog.html">17/02/2025</a>
+        <br>
+        7 New Games!<br>Bug Fixes!
+      </p>
+    </div>
+
+    <!-- Right section -->
+    <div class="right-section">
+      <div class="buttons">
+        <a href="/saves.html">
+          <button class="github-btn">Save File Manager</button>
+        </a>
+        <a href="/themes.html">
+          <button class="github-btn">Customise</button>
+        </a>
+      </div>
+      <p class="section-text">
+        <label style="display: flex; align-items: center; justify-content: center; font-size: 1.7vw;">
+          <input type="checkbox" id="toggleCheckbox"
+            style="appearance: none; -webkit-appearance: none; -moz-appearance: none; width: 1.7vw; height: 1.7vw; margin-right: 10px; border: 2px solid var(--primary-color); border-radius: 4px; position: relative; cursor: pointer;">
+          Show Playtime
+        </label>
+
+        <style>
+          /* Unchecked state */
+          #toggleCheckbox {
+            background-color: var(--secondary-color);
+          }
+
+          /* Checkmark for the checked state */
+          #toggleCheckbox:checked::before {
+            content: "✓";
+            color: var(--primary-color);
+            font-size: 1.7vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        </style>
+
+        <script>
+          const checkbox = document.getElementById("toggleCheckbox");
+
+          // Function to update the playtime-log based on the checkbox state
+          function updatePlaytimeLog() {
+            let playtimeLog = localStorage.getItem("playtime-log") || "";
+
+            if (checkbox.checked) {
+              playtimeLog = playtimeLog.replace(/playtime-hide/, "playtime-show");
+              if (!playtimeLog.includes("playtime-show")) {
+                playtimeLog = `playtime-show ${playtimeLog}`.trim();
+              }
+            } else {
+              playtimeLog = playtimeLog.replace(/playtime-show/, "playtime-hide");
+              if (!playtimeLog.includes("playtime-hide")) {
+                playtimeLog = `playtime-hide ${playtimeLog}`.trim();
+              }
+            }
+
+            localStorage.setItem("playtime-log", playtimeLog);
+          }
+
+
+          // Set the checkbox state based on playtime-log on page load
+          window.addEventListener("DOMContentLoaded", () => {
+            let playtimeLog = localStorage.getItem("playtime-log") || "";
+
+            // If the log is empty, initialize with "playtime-hide" at the top
+            if (playtimeLog === "") {
+              playtimeLog = "playtime-hide"; // Initialize with "playtime-hide"
+              localStorage.setItem("playtime-log", playtimeLog);
+            }
+
+            // Set the checkbox state based on playtime-log
+            checkbox.checked = playtimeLog.includes("playtime-show");
+          });
+
+          // Listen for changes to the checkbox
+          checkbox.addEventListener("change", updatePlaytimeLog);
+
+        </script>
+        <br>
+        <a href="https://forms.gle/gvpTfVKfNj2YwRzG6">Suggest a Game!</a>
+        <br>
+        <a href="/themes.html#export">
+          Submit a theme
+        </a>
+        <br>
+        <a href="/issues.html">
+          Report an Issue
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <style>
+    /* Container style */
+    .news-container {
+      display: flex;
+      justify-content: center;
+      /* Center the sections horizontally */
+      align-items: stretch;
+      /* Ensure both sections stretch equally */
+      background-color: transparent;
+      color: var(--secondary-color);
+      margin: 0 auto;
+      /* Center the container within its parent */
+      width: 71.6vw;
+      /* Set container width */
+      height: 22vw;
+      /* Use vw instead of vh for consistent scaling */
+      font-family: 'M Plus Rounded 1c', sans-serif;
+      font-weight: bold;
+      box-sizing: border-box;
+      /* Include padding and border in the size */
+      overflow: hidden;
+      /* Prevent overflow */
+    }
+
+    /* Section styles */
+    .left-section,
+    .right-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: var(--secondary-color);
+      border: 0.4vw solid var(--secondary-color-dark);
+      /* Use darkened color */
+      padding: 2vw;
+      /* Use vw for padding */
+      box-sizing: border-box;
+      flex: 1;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    /* Overlapping sections */
+    .left-section {
+      margin-right: -0.2vw;
+      /* Move the left section to the right */
+      border-top-left-radius: 0.5vw;
+      /* Rounded corners */
+      border-bottom-left-radius: 0.5vw;
+    }
+
+    .right-section {
+      margin-left: -0.2vw;
+      /* Move the right section to the left */
+      border-top-right-radius: 0.5vw;
+      /* Rounded corners */
+      border-bottom-right-radius: 0.5vw;
+    }
+
+    /* Buttons container */
+    .buttons {
+      margin-top: -1vw;
+      display: flex;
+      justify-content: space-evenly;
+      /* Space buttons evenly */
+      width: 100%;
+      /* Full width for button alignment */
+      margin-bottom: 1vw;
+      /* Use vw for spacing */
+      flex-shrink: 0;
+      /* Prevent buttons from shrinking */
+      align-items: center;
+      /* Ensure buttons align vertically */
+    }
+
+    /* GitHub button style */
+    .github-btn {
+      font-size: 1.8vw;
+      /* Scaled font size */
+      font-family: 'League Gothic', sans-serif;
+      background-color: var(--secondary-color);
+      padding: 0.5vw 1vw;
+      /* Responsive padding */
+      border-radius: 0.5vw;
+      /* Rounded corners */
+      color: var(--primary-color);
+      font-weight: normal;
+      outline: var(--primary-color) solid 0.3vw;
+      /* Consistent outline */
+      border: none;
+      cursor: pointer;
+      white-space: nowrap;
+      /* Prevent text wrapping */
+      text-align: center;
+      flex: 1;
+      /* Allow buttons to grow evenly within the container */
+      max-width: 15vw;
+      /* Prevent buttons from being too wide */
+      min-width: 10vw;
+      /* Ensure buttons don’t shrink too small */
+      aspect-ratio: 4 / 1;
+      /* Keep consistent height-to-width ratio */
+      box-sizing: border-box;
+      /* Include padding and border in size */
+    }
+
+    /* Make buttons responsive to surrounding elements and screen size */
+    .github-btn:focus,
+    .github-btn:hover {
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+      transform: scale(1.05);
+      /* Subtle hover effect */
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+
+
+    /* Style for the text below buttons */
+    .section-text {
+      margin: 0;
+      /* Remove unnecessary margins */
+      font-size: 1.7vw;
+      /* Way smaller font size */
+      color: var(--primary-color);
+      /* Text color */
+      text-align: center;
+      /* Center the text */
+      width: 100%;
+      /* Ensure the text spans the width of the section */
+      overflow: hidden;
+      /* Prevent text overflow */
+      text-overflow: ellipsis;
+      /* Add ellipsis if text overflows */
+      flex-grow: 1;
+      /* Allow text to expand and fill remaining space */
+    }
+
+    .section-text a {
+      margin: 0;
+      /* Remove unnecessary margins */
+      text-decoration: underline !important;
+      font-size: 1.7vw;
+      /* Way smaller font size */
+      color: var(--primary-color);
+      /* Text color */
+      text-align: center;
+      /* Center the text */
+      overflow: hidden;
+      /* Prevent text overflow */
+      text-overflow: ellipsis;
+      /* Add ellipsis if text overflows */
+    }
+  </style>
+
+
+
+  </div>
+  <br><br id="featured-games">
+  <p id="list-type2" style="
+    font-size: 220%;
+    font-family: 'League Gothic';
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #58aafc;
+    text-align: center;
+    padding: 0.25%;
+    outline: #58aafc solid 4px;
+    border-radius: 5px;
+  ">
+    New Games
+  </p>
+  <ul id="pageListNEW" class="game-list" style="margin-left: 1vw; margin-right: 1vw;">
+    <!-- List of pages will be dynamically generated here -->
+  </ul>
+  <script src="/js/list/new-list.js">generateNewPageList();</script>
+  <br>
+  <p id="list-type3" style="
+    font-size: 220%;
+    font-family: 'League Gothic';
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #D058FC;
+    text-align: center;
+    padding: 0.25%;
+    outline: #D058FC solid 4px;
+    border-radius: 5px;
+  ">
+    Multiplayer Games
+  </p>
+  <div>
+    <ul id="pageListMULTI" class="game-list">
+      <!-- List of pages will be dynamically generated here -->
+    </ul>
+  </div>
+  <script src="/js/list/multi-list.js">generatePageListMULTI();</script>
+  <p id="list-type3" style="
+    font-size: 200%;
+    font-family: 'League Gothic';
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #D058FC;
+    text-align: center;
+    padding: 0.25%;
+    outline: #D058FC solid 4px;
+    border-radius: 5px;
+  ">
+    Online Games
+  </p>
+  <div>
+    <ul id="pageListONLINE" class="game-list">
+      <!-- List of pages will be dynamically generated here -->
+    </ul>
+  </div>
+  <script src="/js/list/online-list.js">generatePageListONLINE();</script>
+  <br>
+  <div class="sortButtonDiv" id="AllGamesDiv"
+    style="display: flex; align-items: flex-start; gap: 0; padding-top: 15px;">
+    <!-- Sort Dropdown -->
+    <div id="sortDropdownContainer" style="display: inline-block; position: relative;">
+      <button id="sortButton" onclick="toggleSortDropdownMenu()">
+        Sort: A-Z
+      </button>
+      <div id="sortDropdownMenu" class="dropdown-menu" style="display: none;">
+        <ul class="dropdown-inner">
+          <li onclick="selectSortOrder(0)">A-Z</li>
+          <li onclick="selectSortOrder(1)">Z-A</li>
+          <li onclick="selectSortOrder(2)">Added New-Old</li>
+          <li onclick="selectSortOrder(3)">Added Old-New</li>
+          <li onclick="selectSortOrder(4)">Release New-Old</li>
+          <li onclick="selectSortOrder(5)">Release Old-New</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Filter Dropdown -->
+    <div id="filterDropdownContainer" style="display: inline-block; position: relative;">
+      <button id="filterButton" onclick="toggleDropdownMenu()">
+        Filter: All
+      </button>
+      <div id="filterDropdownMenu" class="dropdown-menu" style="display: none;">
+        <ul class="dropdown-inner">
+          <li onclick="selectFilter('All')">All</li>
+          <li onclick="selectFilter('multiplayer')">Multiplayer</li>
+          <li onclick="selectFilter('online')">Online</li>
+          <li onclick="selectFilter('shooter')">Shooter</li>
+          <li onclick="selectFilter('puzzle')">Puzzle</li>
+          <li onclick="selectFilter('endless')">Endless</li>
+          <li onclick="selectFilter('platformer')">Platformer</li>
+          <li onclick="selectFilter('driving')">Driving</li>
+          <li onclick="selectFilter('demo')">Demo</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <style>
+      /* Button Container */
+      .sortButtonDiv {
+        display: flex;
+        align-items: flex-start;
+      }
+
+      #sortButton,
+      #filterButton {
+        width: 250px;
+        text-align: center;
+        font-size: large;
+        /* Adjusted text size */
+        height: 40px;
+        /* Adjusted height */
+        padding: 8px;
+        /* Reduced padding */
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border-radius: 5px;
+        border: none;
+        font-family: 'M Plus Rounded 1c', sans-serif;
+        font-weight: bold;
+      }
+
+
+      /* Dropdown Menu Styling */
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        /* Directly below the button */
+        width: 250px;
+        /* Matches button width */
+
+        left: 50%;
+        /* put left to centre horizontally */
+        transform: translateX(-50%);
+        /* translate it so centre is not centred*/
+
+        background-color: var(--secondary-color);
+        border-radius: 5px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+        /* Light shadow */
+        z-index: 5;
+        font-family: "M Plus Rounded 1c", sans-serif;
+        font-weight: bold;
+        margin-top: -6px;
+      }
+
+      /* Dropdown Inner Styling */
+      .dropdown-inner {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .dropdown-inner li {
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+        color: var(--primary-color);
+        border-top: 1px solid var(--primary-color);
+        border-radius: 5px;
+      }
+
+      .dropdown-inner li:first-child {
+        border-top: none;
+        /* Remove border from the first item */
+      }
+
+      .dropdown-inner li:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+      }
+    </style>
+  </div>
+
+  <ul id="pageList" class="game-list">
+    <!-- List of pages will be dynamically generated here -->
+  </ul>
+
+  <script>
+   let sortOrder = 0;
+let selectedFilter = 'All';
+
+function sortPages() {
+  switch (sortOrder) {
+    case 0: // A-Z
+      pagesData.sort((a, b) => (a.name > b.name) ? 1 : -1);
+      break;
+    case 1: // Z-A
+      pagesData.sort((a, b) => (a.name < b.name) ? 1 : -1);
+      break;
+    case 2: // New-Old
+      pagesData.sort((a, b) => {
+        const dateA = new Date(a.date.split('-').reverse().join('-'));
+        const dateB = new Date(b.date.split('-').reverse().join('-'));
+        if (dateA.getTime() === dateB.getTime()) {
+          return a.name.localeCompare(b.name);
+        }
+        return dateB.getTime() - dateA.getTime();
+      });
+      break;
+    case 3: // Old-New
+      pagesData.sort((a, b) => {
+        const dateA = new Date(a.date.split('-').reverse().join('-'));
+        const dateB = new Date(b.date.split('-').reverse().join('-'));
+        if (dateA.getTime() === dateB.getTime()) {
+          return b.name.localeCompare(a.name);
+        }
+        return dateA.getTime() - dateB.getTime();
+      });
+      break;
+    case 4: // Release New-Old
+      pagesData.sort((a, b) => {
+        const parseReleaseDate = (releaseDate) => {
+          if (!releaseDate) return new Date(); // Use the current date if no release date
+          const parts = releaseDate.split('-');
+          if (parts.length === 1) {
+            return new Date(parts[0], 0, 1);
+          }
+          if (parts.length === 2) {
+            return new Date(parts[1], parts[0] - 1, 1);
+          }
+          if (parts.length === 3) {
+            return new Date(parts[2], parts[1] - 1, parts[0]);
+          }
+          return new Date();
+        };
+
+        const releaseDateA = parseReleaseDate(a.release_Date);
+        const releaseDateB = parseReleaseDate(b.release_Date);
+        if (releaseDateA.getTime() === releaseDateB.getTime()) {
+          return a.name.localeCompare(b.name);
+        }
+        return releaseDateB.getTime() - releaseDateA.getTime();
+      });
+      break;
+    case 5: // Release Old-New
+      pagesData.sort((a, b) => {
+        const parseReleaseDate = (releaseDate) => {
+          if (!releaseDate) return new Date(); 
+          const parts = releaseDate.split('-');
+          if (parts.length === 1) {
+            return new Date(parts[0], 0, 1);
+          }
+          if (parts.length === 2) {
+            return new Date(parts[1], parts[0] - 1, 1);
+          }
+          if (parts.length === 3) {
+            return new Date(parts[2], parts[1] - 1, parts[0]);
+          }
+          return new Date();
+        };
+
+        const releaseDateA = parseReleaseDate(a.release_Date);
+        const releaseDateB = parseReleaseDate(b.release_Date);
+        if (releaseDateA.getTime() === releaseDateB.getTime()) {
+          return b.name.localeCompare(a.name);
+        }
+        return releaseDateA.getTime() - releaseDateB.getTime();
+      });
+      break;
+  }
+}
+
+function filterPages() {
+  if (selectedFilter === 'All') {
+    return pagesData;
+  }
+  return pagesData.filter(page => page.category.includes(selectedFilter));
+}
+
+async function generatePageList() {
+  const pageList = document.getElementById('pageList');
+  pageList.innerHTML = "";
+  const currentScrollPosition = window.scrollY;
+  // Apply the selected sort order before rendering
+  sortPages();
+  const filteredPages = filterPages();
+
+  const updatedPages = await Promise.all(filteredPages.map(async (page, index) => {
+    const formattedName = page.formatted_Name || page.name || `Unnamed ${index}`;
+    let playtimeText = "Loading...";
+    try {
+      playtimeText = await calculatePlaytime(page.name);
+    } catch (error) {
+      playtimeText = "Error";
+    }
+    page.playtime = playtimeText;
+    return page;
+  }));
+
+  // Append the sorted and updated list
+  updatedPages.forEach((page, index) => {
+    const formattedName = page.formatted_Name || page.name || `Unnamed ${index}`;
+    const playtimeText = page.playtime;
+    let letterSpacing = "normal";
+    if (formattedName.length > 20) {
+      letterSpacing = `-${(formattedName.length - 20) * 0.02}rem`;
+    }
+
+   
+        // Create the list item
+        if (!(localStorage.getItem('playtime-log') && localStorage.getItem('playtime-log').includes("playtime-hide"))) {
+          const li = document.createElement('li');
+          li.innerHTML = `
+      <div data-date="${page.date || 'unknown'}">
+        <div class="suggest-game" onmouseover="highlightImageL('suggest-imgL${index + 1}', 'suggest-textL${index + 1}')" 
+          onmouseout="removeHighlightL('suggest-imgL${index + 1}', 'suggest-textL${index + 1}')">
+          <a href="games/${page.name}.html">
+            <div class="suggest-text-back-container" style="position: absolute; margin: 0.6vh; width: 16.8vw; height: calc(20.3vw * 9 / 16); overflow: hidden; z-index: 2;">
+              <div class="suggest-text-back" style="position: absolute; width: 300%; height: 300%; left: -5vw; top: 0vw; background-color: black; opacity: 0;"></div>
+            </div>
+            <img id="suggest-imgL${index + 1}" src="/images/games/${page.name}.png" alt="${page.name}" style="margin: 0.6vh; border-radius: 0.4vw; position: relative; width: 16.8vw; height: auto;" />
+            
+            <!-- Title and Playtime Text in the same p tag -->
+            <p id="suggest-textL${index + 1}" style="letter-spacing: ${letterSpacing}; position: absolute; z-index: 999; left: 1.25vw; top: calc(100% - 4.75vw - 0.9rem); opacity: 0; text-align: left;">
+              <span style="display: block; margin-bottom: -0.5rem;">${formattedName}</span>
+                      <span style="font-size: 0.95rem; margin: 0; padding: 0; color: #d9d9d9 !important; letter-spacing: normal; line-height: 1; display: inline-flex; align-items: center;">
+                          <svg xmlns="http://www.w3.org/2000/svg" 
+                               style="width: 1em !important; height: 1em !important; fill: currentColor !important; vertical-align: middle !important; margin-right: 0.15em !important; filter: drop-shadow(0px 0px 4px #000) drop-shadow(0px 0px 2px #000) drop-shadow(0px 0px 4px #000);" 
+                               viewBox="0 -960 960 960">
+                              <path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                          </svg>
+                          ${playtimeText}
+                      </span>
+          </p>
+        </a>
+      </div>
+    </div>
+    `;
+          pageList.appendChild(li);
+          window.scrollTo(0, currentScrollPosition);
+        }
+        else {
+          const li = document.createElement('li');
+          li.innerHTML = `
+      <div data-date="${page.date || 'unknown'}">
+        <div class="suggest-game" onmouseover="highlightImageL('suggest-imgL${index + 1}', 'suggest-textL${index + 1}')" 
+          onmouseout="removeHighlightL('suggest-imgL${index + 1}', 'suggest-textL${index + 1}')">
+          <a href="games/${page.name}.html">
+            <div class="suggest-text-back-container" style="position: absolute; margin: 0.6vh; width: 16.8vw; height: calc(20.3vw * 9 / 16); overflow: hidden; z-index: 2;">
+              <div class="suggest-text-back" style="position: absolute; width: 300%; height: 300%; left: -5vw; top: 0vw; background-color: black; opacity: 0;"></div>
+            </div>
+            <img id="suggest-imgL${index + 1}" src="/images/games/${page.name}.png" alt="${page.name}" style="margin: 0.6vh; border-radius: 0.4vw; position: relative; width: 16.8vw; height: auto;" />
+            
+            <!-- Title and Playtime Text in the same p tag -->
+            <p id="suggest-textL${index + 1}" style="letter-spacing: ${letterSpacing}; position: absolute; z-index: 999; left: 1.25vw; top: calc(100% - 4.75vw); opacity: 0; text-align: left;">
+                      <span style="display: block; margin-bottom: -0.5rem;">${formattedName}</span>
+                  </p>
+        </a>
+      </div>
+    </div>
+    `;
+    pageList.appendChild(li);
+    window.scrollTo(0, currentScrollPosition);
+  }
+      });
+    }
+function toggleSortDropdownMenu() {
+  const dropdown = document.getElementById('sortDropdownMenu');
+  dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+}
+
+function selectSortOrder(order) {
+  sortOrder = order;
+  generatePageList();  // Ensure the page list is generated with the new sort order
+  const sortButton = document.getElementById('sortButton');
+  const sortLabels = ['A-Z', 'Z-A', 'Added New-Old', 'Added Old-New', 'Release New-Old', 'Release Old-New'];
+  sortButton.textContent = `Sort: ${sortLabels[sortOrder]}`;
+  closeSortDropdownMenu();
+}
+
+function closeSortDropdownMenu() {
+  document.getElementById('sortDropdownMenu').style.display = 'none';
+}
+
+    function toggleDropdownMenu() {
+      const dropdown = document.getElementById('filterDropdownMenu');
+      dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function selectFilter(filterValue) {
+      selectedFilter = filterValue;
+      const filterButton = document.getElementById('filterButton');
+      filterButton.textContent = `Filter: ${capitalizeFirstLetter(selectedFilter)}`;
+      generatePageList();
+      closeDropdownMenu();
+    }
+
+    function closeDropdownMenu() {
+      document.getElementById('filterDropdownMenu').style.display = 'none';
+    }
+
+    function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    // Close dropdowns when clicking outside of them
+    document.addEventListener('click', function (event) {
+      const sortDropdown = document.getElementById('sortDropdownMenu');
+      const filterDropdown = document.getElementById('filterDropdownMenu');
+      const sortButton = document.getElementById('sortButton');
+      const filterButton = document.getElementById('filterButton');
+
+      if (!sortDropdown.contains(event.target) && !sortButton.contains(event.target)) {
+        closeSortDropdownMenu();
+      }
+
+      if (!filterDropdown.contains(event.target) && !filterButton.contains(event.target)) {
+        closeDropdownMenu();
+      }
+    });
+
+
+  </script>
+
+</body>
+
+</html>
