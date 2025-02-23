@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    const relatedGameLimit = 15;  // You can change this to 200 or whatever number you want
+    const relatedGameLimit = 5;  // You can change this to 200 or whatever number you want
 
     // Get the current page name from the URL
     const currentPageURL = window.location.pathname;
