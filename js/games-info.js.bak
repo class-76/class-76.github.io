@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
                 <p>
                     ${name}<br>
-          
+                    By <a href="${authorLink}" target="_blank">${author}</a><br>
+                    Tags: ${category}<br><br>
                     Date Added: ${formattedDate}<br>
                     ${lastUpdateLine}
                     Release Date: ${formattedRelease}<br>
