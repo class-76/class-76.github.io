@@ -49,7 +49,7 @@ setDefaultValuesIfPrimaryColorMissing();
 function loadIframe() {
     // If gameName is "none", stop the function from executing
 
-    var iframeSrc = 'https://class-76.github.io/coolubg-list/'; // VERY IMPORTANT THIS IS WHERE THE URL FOR THE GAMES IS KEPT SO IF YOU WANT TO USE YOUR OWN WEBSITE THEN CHANGE THIS LINK!
+    var iframeSrc = 'https://class-76.github.io/list/'; // VERY IMPORTANT THIS IS WHERE THE URL FOR THE GAMES IS KEPT SO IF YOU WANT TO USE YOUR OWN WEBSITE THEN CHANGE THIS LINK!
     // var gameVariable = getGameVariable();
     iframeSrc += gameName;
 
@@ -323,11 +323,11 @@ function attachNavbarListeners() {
 
 
 // function getPrimarySrc() {
-//     return 'https://class-76.github.io/coolubg-list/';
+//     return 'https://class-76.github.io/list/';
 // }
 
 // function getBackupSrc() {
-//     return 'https://coolubg2.github.io/coolubg-list/';
+//     return 'https://coolubg2.github.io/list/';
 // }
 
 // function getGameVariable() {
