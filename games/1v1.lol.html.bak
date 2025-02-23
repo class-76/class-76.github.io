@@ -13,13 +13,7 @@
   <script src="/analytics.js"></script>
   <script src="/main.js" defer></script>
   <script src="/tracking.js"></script>
-    <script>
-    var gameName = "1v1.lol"
-    var titleText = "1v1.lol";
-    var author = "JustPlay.LOL";
-    var authorLink = "https://www.justplay.lol/"
-    var description = "just play lol<br><br>fortnite"
-  </script>
+  
 </head>
 
 <body>
