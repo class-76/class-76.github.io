@@ -13,7 +13,6 @@
   <meta property="og:url" content="https://class-76.github.io/" />
   <meta property="og:site_name" content="Cool Unblocked Games" />
   <meta name="theme-color" content="#58aafc" />
-  <meta name="google-site-verification" content="Q-GasTm6p0RsCSA7j-x1U7mX_Cz6ItjUz8q3bzM6YYo" />
   <link rel="stylesheet" type="text/css" href="/games.css">
   <link rel="stylesheet" type="text/css" href="/effects.css">
   <meta property="og:description"
@@ -451,25 +450,81 @@
   </div>
   <div class="news-container">
     <!-- Left section -->
-    <div class="left-section">
-      <div class="buttons">
-        <a href="https://linktr.ee/coolbugubg">
-          <button class="github-btn">Github & Other Websites</button>
-        </a>
-        <a href="/changelog.html">
-          <button class="github-btn">Changelog</button>
-        </a>
-      </div>
-      <p class="section-text">
-        this website is so cool
-        <br><br>
-        Last Update:
-        <a href="/changelog.html">17/02/2025</a>
+   
+
+    <!-- Right section -->
+ 
+        <style>
+          /* Unchecked state */
+          #toggleCheckbox {
+            background-color: var(--secondary-color);
+          }
+
+          /* Checkmark for the checked state */
+          #toggleCheckbox:checked::before {
+            content: "✓";
+            color: var(--primary-color);
+            font-size: 1.7vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        </style>
+
+        <script>
+          const checkbox = document.getElementById("toggleCheckbox");
+
+          // Function to update the playtime-log based on the checkbox state
+          function updatePlaytimeLog() {
+            let playtimeLog = localStorage.getItem("playtime-log") || "";
+
+            if (checkbox.checked) {
+              playtimeLog = playtimeLog.replace(/playtime-hide/, "playtime-show");
+              if (!playtimeLog.includes("playtime-show")) {
+                playtimeLog = `playtime-show ${playtimeLog}`.trim();
+              }
+            } else {
+              playtimeLog = playtimeLog.replace(/playtime-show/, "playtime-hide");
+              if (!playtimeLog.includes("playtime-hide")) {
+                playtimeLog = `playtime-hide ${playtimeLog}`.trim();
+              }
+            }
+
+            localStorage.setItem("playtime-log", playtimeLog);
+          }
+
+
+          // Set the checkbox state based on playtime-log on page load
+          window.addEventListener("DOMContentLoaded", () => {
+            let playtimeLog = localStorage.getItem("playtime-log") || "";
+
+            // If the log is empty, initialize with "playtime-hide" at the top
+            if (playtimeLog === "") {
+              playtimeLog = "playtime-hide"; // Initialize with "playtime-hide"
+              localStorage.setItem("playtime-log", playtimeLog);
+            }
+
+            // Set the checkbox state based on playtime-log
+            checkbox.checked = playtimeLog.includes("playtime-show");
+          });
+
+          // Listen for changes to the checkbox
+          checkbox.addEventListener("change", updatePlaytimeLog);
+
+        </script>
         <br>
-        7 New Games!<br>Bug Fixes!
+        <a href="https://forms.gle/gvpTfVKfNj2YwRzG6">Suggest a Game!</a>
+        <br>
+        <a href="/themes.html#export">
+          Submit a theme
+        </a>
+        <br>
+        <a href="/issues.html">
+          Report an Issue
+        </a>
       </p>
     </div>
-
   </div>
 
   <style>
