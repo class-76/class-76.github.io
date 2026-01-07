@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /list
-
-Allow: /
-
-Sitemap: https://class-76.github.io/sitemap.xml
