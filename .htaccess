@@ -1,2 +1,2 @@
-RewriteEngine On
-RewriteRule ^ads.txt$ ads.php [L]
+RewriteEngine on
+ErrorDocument 404 /index.html
