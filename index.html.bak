@@ -32,6 +32,23 @@
     <link class="favicon" rel="icon" type="image/x-icon" href="/media/drive.ico" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="games.css" />
+	<style>
+    :root { --max: 980px; }
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; line-height: 1.65; background:#fff; color:#111; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 28px 16px; }
+    header { margin-bottom: 18px; }
+    h1 { font-size: 28px; margin: 0 0 10px; }
+    p.lead { margin: 0 0 14px; font-size: 16px; }
+    .note { font-size: 13px; opacity: .8; margin: 8px 0 18px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+    .card { border: 1px solid #e8e8e8; border-radius: 14px; overflow: hidden; background: #fff; }
+    .thumb { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; background:#f3f3f3; }
+    .content { padding: 12px 12px 14px; }
+    .title { font-weight: 700; margin: 0 0 6px; font-size: 15px; }
+    .desc { margin: 0; font-size: 13px; opacity: .92; }
+    .footer { margin-top: 18px; padding-top: 14px; border-top: 1px solid #eee; }
+    ul { margin: 10px 0 0 18px; }
+  </style>
   </head>
   <body>
     <nav class="nav" id="nav">
@@ -55,16 +72,198 @@
       <header class="homeheader">
         <div class="title" name="Welcome to class-76.github.io!">Welcome to class-76.github.io</div>
         <div class="sub">
-          <b
-            style="
-              font-size: 23px;
-              margin-bottom: 15px;
-              display: block;
-              font-style: italic;
-            "
-            >Fun, redefined:</b
-          >
-          Hundreds of G4M3S, countless features, endless play!
+         <main class="wrap">
+    <header>
+      <h1>Unblocked Games 76: Top 20 Most Played Games (With Images)</h1>
+      <p class="lead">
+        <strong>Unblocked Games 76</strong> is popular because it offers quick, browser-based fun with no installs—perfect for
+        short breaks on school or low-spec computers. The best titles load fast, use simple controls, and keep you hooked with
+        instant “one more round” gameplay. Below are <strong>20 of the most played favorites</strong>, covering action, sports,
+        racing, puzzles, and multiplayer. Each pick is easy to start, hard to stop, and ideal when you want entertainment without
+        downloads or accounts.
+      </p>
+      <p class="note">
+        Image tip: replace each <code>src</code> with your own thumbnails (e.g., <code>/assets/img/games/slug.jpg</code>) or keep the placeholders.
+      </p>
+    </header>
+
+    <section class="grid" aria-label="Top 20 most played games list">
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/happy-wheels/800/450" alt="Happy Wheels thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">1) Happy Wheels</p>
+          <p class="desc">Wild physics, outrageous crashes, and creative levels that make every run unpredictable.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/1v1lol/800/450" alt="1v1.LOL thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">2) 1v1.LOL</p>
+          <p class="desc">Quick PvP matches with building + shooting—practice aim, edits, and clutch plays.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/run3/800/450" alt="Run 3 thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">3) Run 3</p>
+          <p class="desc">Sprint through space tunnels, leap gaps, and survive gravity-bending turns.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/friday-night-funkin/800/450" alt="Friday Night Funkin thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">4) Friday Night Funkin’</p>
+          <p class="desc">Rhythm battles with catchy tracks—hit the arrows and keep the combo alive.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/paper-io/800/450" alt="Paper.io 2 thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">5) Paper.io 2</p>
+          <p class="desc">Claim territory, cut off opponents, and expand your zone without getting sliced.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/basketball-stars/800/450" alt="Basketball Stars thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">6) Basketball Stars</p>
+          <p class="desc">Arcade 1v1 hoops—dribble, fake, and time your shots for clean swishes.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/madalin-stunt-cars/800/450" alt="Madalin Stunt Cars thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">7) Madalin Stunt Cars</p>
+          <p class="desc">Free-roam supercars, huge ramps, and stunts that feel great even on keyboards.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/bomb-it/800/450" alt="Bomb It thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">8) Bomb It</p>
+          <p class="desc">Bomber-style action—place bombs, trap rivals, and win with smart timing.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/slope/800/450" alt="Slope thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">9) Slope</p>
+          <p class="desc">Pure reflex speed—steer a ball down a neon track where one mistake ends it.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/zombs-royale/800/450" alt="Zombs Royale thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">10) Zombs Royale</p>
+          <p class="desc">Top-down battle royale: loot fast, rotate smart, and survive the final circle.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/among-us/800/450" alt="Among Us thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">11) Among Us</p>
+          <p class="desc">Social deduction chaos—finish tasks, discuss clues, and find the impostor.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/tank-trouble/800/450" alt="Tank Trouble thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">12) Tank Trouble</p>
+          <p class="desc">Bouncy bullets in tight mazes—outplay friends with angles and quick turns.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/moto-x3m/800/450" alt="Moto X3M thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">13) Moto X3M</p>
+          <p class="desc">Bike trials with traps, flips, and time goals—learn each level and shave seconds.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/stickman/800/450" alt="Stickman Fighting thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">14) Stickman Fighting</p>
+          <p class="desc">Simple visuals, satisfying action—combos, upgrades, and quick battles.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/soccer-random/800/450" alt="Soccer Random thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">15) Soccer Random</p>
+          <p class="desc">One-button hilarity—crazy physics matches that are perfect for quick 2-player fun.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/slither-io/800/450" alt="Slither.io thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">16) Slither.io</p>
+          <p class="desc">Grow your snake, bait opponents, and dominate the map with smart cutoffs.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/geometry-dash/800/450" alt="Geometry Dash thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">17) Geometry Dash</p>
+          <p class="desc">Rhythm precision platforming—tight jumps, fast retries, and satisfying mastery.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/2048/800/450" alt="2048 thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">18) 2048</p>
+          <p class="desc">Classic number puzzle—merge tiles, plan ahead, and chase the 2048 block.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/retro-bowl/800/450" alt="Retro Bowl thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">19) Retro Bowl</p>
+          <p class="desc">Arcade football management—draft, upgrade, and call plays for a championship run.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://picsum.photos/seed/smash-flash/800/450" alt="Super Smash Flash 2 thumbnail" loading="lazy" />
+        <div class="content">
+          <p class="title">20) Super Smash Flash 2</p>
+          <p class="desc">Fan-made fighter with a big roster—fast matches and skill-based combos.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="footer">
+      <h2 style="font-size:18px; margin: 0 0 8px;">Why Unblocked Games 76 stays popular</h2>
+      <p style="margin:0;">
+        Players love the “click and play” feel: most games run in seconds, controls are easy to learn, and the variety means you
+        can switch genres anytime—racing one minute, puzzles the next, then a quick multiplayer match. For an Unblocked Games 76
+        page, this mix is perfect: highlight fast-loading picks, keep short descriptions clear, and use clean thumbnails so visitors
+        instantly spot what they want to play.
+      </p>
+      <ul>
+        <li>Fast browser gameplay (no installs)</li>
+        <li>Variety: action, sports, puzzles, multiplayer</li>
+        <li>Great for short breaks and quick sessions</li>
+      </ul>
+    </section>
+  </main>
         </div>
       </header>
       <div class="functions" id="functions">
